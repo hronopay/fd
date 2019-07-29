@@ -10,7 +10,7 @@ https://github.com/bitcoin/secp256k1
 
 Coin Name : Fdel
 
-Ticker : HLD
+Ticker : FDEL
 
 Coin Type : POS
 
@@ -20,7 +20,7 @@ Block Time : 90 Sec Approx
 
 Block Size : 2MB
 
-Block Reward: 64 HLD increasing to 80 at block 88900
+Block Reward: 64 FDEL increasing to 80 at block 88900
 
 Total Coins: 70,000,000
 
