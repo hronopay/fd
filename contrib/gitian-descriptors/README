@@ -24,8 +24,8 @@ Once you've got the right hardware and software:
     cd ..
 
     # To build
-    cd Highland
+    cd Fdel
     git pull
     cd ../gitian-builder
     git pull
-    ./bin/gbuild --commit bitcoin=HEAD ../Highland/contrib/gitian-descriptors/gitian.yml
+    ./bin/gbuild --commit bitcoin=HEAD ../Fdel/contrib/gitian-descriptors/gitian.yml

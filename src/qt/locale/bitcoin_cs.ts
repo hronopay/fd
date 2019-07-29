@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Highland</source>
-        <translation>O Highlandu</translation>
+        <source>About Fdel</source>
+        <translation>O Fdelu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Highland&lt;/b&gt; version</source>
-        <translation>Verze &lt;b&gt;Highlandu&lt;/b&gt; </translation>
+        <source>&lt;b&gt;Fdel&lt;/b&gt; version</source>
+        <translation>Verze &lt;b&gt;Fdelu&lt;/b&gt; </translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Highland developers</source>
+Copyright © 2015-2017 The Fdel developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Highland developers</translation>
+Copyright © 2015-2017 The Fdel developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Highland addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tato jsou tvé Highland adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
+        <source>These are your Fdel addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tato jsou tvé Fdel adresy pro příjem plateb. Každému odesílateli můžeš dát jinou adresu, aby jsi mohl sledovat, kdo ti platí.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Highland address</source>
-        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Highland adresu.</translation>
+        <source>Sign a message to prove you own a Fdel address</source>
+        <translation>Podepiš zprávu, aby jsi dokázal, že vlastníš tuto Fdel adresu.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Highland address</source>
-        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Highland adresou.</translation>
+        <source>Verify a message to ensure it was signed with a specified Fdel address</source>
+        <translation>Ověř zprávu, aby jsi zajistil, že byla podepsaná určitou Fdel adresou.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Highland will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Pro dokončení procesu šifrování se Highland nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
+        <source>Fdel will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Pro dokončení procesu šifrování se Fdel nyní zavře, Pamatuj, že zašifrování tvé peněženky nemůže plně ochránit tvé mince před krádeží, pokud máš počítač infikován malwerem.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Highland</source>
-        <translation>Zobraz informace a Highlandu</translation>
+        <source>Show information about Fdel</source>
+        <translation>Zobraz informace a Fdelu</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Highland address</source>
-        <translation>Odešli mince na Highland adresu</translation>
+        <source>Send coins to a Fdel address</source>
+        <translation>Odešli mince na Fdel adresu</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Highland</source>
-        <translation>Uprav možnosti konfigurace pro Highland</translation>
+        <source>Modify configuration options for Fdel</source>
+        <translation>Uprav možnosti konfigurace pro Fdel</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Highland</source>
-        <translation>Highland</translation>
+        <source>Fdel</source>
+        <translation>Fdel</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Highland</source>
-        <translation>&amp;O Highlandu</translation>
+        <source>&amp;About Fdel</source>
+        <translation>&amp;O Fdelu</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Highland client</source>
-        <translation>Highland klient</translation>
+        <source>Fdel client</source>
+        <translation>Fdel klient</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Highland network</source>
-        <translation><numerusform>%n aktivní spojení do Highland sítě</numerusform><numerusform>%n aktivních spojení do Highland sítě</numerusform><numerusform>%n aktivních spojení do Highland sítě</numerusform></translation>
+        <source>%n active connection(s) to Fdel network</source>
+        <translation><numerusform>%n aktivní spojení do Fdel sítě</numerusform><numerusform>%n aktivních spojení do Fdel sítě</numerusform><numerusform>%n aktivních spojení do Fdel sítě</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adresa: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Highland address or malformed URI parameters.</source>
-        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Highland adresou nebo chybnými URI parametry.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fdel address or malformed URI parameters.</source>
+        <translation>URI nejde rozparsovat! To může být způsobeno neplatnou Fdel adresou nebo chybnými URI parametry.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adresa: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Highland can no longer continue safely and will quit.</source>
-        <translation>Došlo k závažné chybě. Highland již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
+        <source>A fatal error occurred. Fdel can no longer continue safely and will quit.</source>
+        <translation>Došlo k závažné chybě. Fdel již nemůže dále bezpečně pokračovat a bude ukončen.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Highland address.</source>
-        <translation>Zadaná adresa &quot;%1&quot; není platná Highland adresa.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fdel address.</source>
+        <translation>Zadaná adresa &quot;%1&quot; není platná Fdel adresa.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Highland-Qt</source>
-        <translation>Highland-Qt</translation>
+        <source>Fdel-Qt</source>
+        <translation>Fdel-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Highland after logging in to the system.</source>
-        <translation>Automaticky spustit Highland po přihlášení do systému.</translation>
+        <source>Automatically start Fdel after logging in to the system.</source>
+        <translation>Automaticky spustit Fdel po přihlášení do systému.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Highland on system login</source>
-        <translation>&amp;Spustit Highland při přihlášení do systému</translation>
+        <source>&amp;Start Fdel on system login</source>
+        <translation>&amp;Spustit Fdel při přihlášení do systému</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Highland client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automaticky otevřít port Highland klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
+        <source>Automatically open the Fdel client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automaticky otevřít port Fdel klienta na routeru. Funguje to jen tehdy, když router podporuje UPnP a je povoleno.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Highland network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Připoj se do sítě Highland přes SOCKS proxy (např. při připojení přes Tor)</translation>
+        <source>Connect to the Fdel network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Připoj se do sítě Fdel přes SOCKS proxy (např. při připojení přes Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Highland.</source>
-        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Highlandu.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fdel.</source>
+        <translation>Zde můžeš nastavit jazyk uživatelského rozhraní. Nastavení se projeví až po restartu Fdelu.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Highland.</source>
-        <translation>Nastavení se projeví až po restartu Highlandu.</translation>
+        <source>This setting will take effect after restarting Fdel.</source>
+        <translation>Nastavení se projeví až po restartu Fdelu.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Highland network after a connection is established, but this process has not completed yet.</source>
-        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Highland sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fdel network after a connection is established, but this process has not completed yet.</source>
+        <translation>Zobrazené informace můžou být zastaralé. Tvá peněženka se automaticky synchronizuje s Fdel sítí po navázaní spojení, ale tento proces ještě není dokončený.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Highland-Qt help message to get a list with possible Highland command-line options.</source>
-        <translation>Zobrazit Highland-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
+        <source>Show the Fdel-Qt help message to get a list with possible Fdel command-line options.</source>
+        <translation>Zobrazit Fdel-Qt nápovědu pro zobrazení seznam dostupným možností příkazového řádku.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Highland - Debug window</source>
-        <translation>Highland - Ladící okno</translation>
+        <source>Fdel - Debug window</source>
+        <translation>Fdel - Ladící okno</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Highland Core</source>
-        <translation>Jádro Highlandu</translation>
+        <source>Fdel Core</source>
+        <translation>Jádro Fdelu</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Highland debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Otevři logovací soubor Highlandu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
+        <source>Open the Fdel debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Otevři logovací soubor Fdelu z aktuálního datového adresáře. Pro velké logy to může trvat několik sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Highland RPC console.</source>
-        <translation>Vítej v Highland RPC konzoli.</translation>
+        <source>Welcome to the Fdel RPC console.</source>
+        <translation>Vítej v Fdel RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HIGHLAND</source>
-        <translation>123.456 HIGHLAND {0.00 ?}</translation>
+        <source>0.00 FDEL</source>
+        <translation>123.456 FDEL {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HIGHLAND</source>
-        <translation>123.456 HIGHLAND</translation>
+        <source>123.456 FDEL</source>
+        <translation>123.456 FDEL</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Napiš Highland adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Napiš Fdel adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Highland address</source>
-        <translation>UPOZORNĚNÍ: Neplatná Highland adresa</translation>
+        <source>WARNING: Invalid Fdel address</source>
+        <translation>UPOZORNĚNÍ: Neplatná Fdel adresa</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Highland adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej Fdel adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Highland address</source>
-        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Highland adresu</translation>
+        <source>Sign the message to prove you own this Fdel address</source>
+        <translation>Podepiš zprávu jako důkaz, že vlastníš tuto Fdel adresu</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Highland address</source>
-        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Highland adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified Fdel address</source>
+        <translation>Ověř zprávu, aby ses ujistil, že byla podepsána danou Fdel adresou</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Zadej Highland adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Zadej Fdel adresu (např. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Highland signature</source>
-        <translation>Zadej Highland podpis</translation>
+        <source>Enter Fdel signature</source>
+        <translation>Zadej Fdel podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Highland version</source>
-        <translation>Verze Highlandu</translation>
+        <source>Fdel version</source>
+        <translation>Verze Fdelu</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or highlandd</source>
-        <translation>Pošli příkaz na -server nebo highlandd</translation>
+        <source>Send command to -server or fdeld</source>
+        <translation>Pošli příkaz na -server nebo fdeld</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Highland.conf)</source>
-        <translation>Urči konfigurační soubor (výchozí: Highland.conf)</translation>
+        <source>Specify configuration file (default: Fdel.conf)</source>
+        <translation>Urči konfigurační soubor (výchozí: Fdel.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: highlandd.pid)</source>
-        <translation>Urči pid soubor (výchozí: highlandd.pid)</translation>
+        <source>Specify pid file (default: fdeld.pid)</source>
+        <translation>Urči pid soubor (výchozí: fdeld.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ To znamená, že je potřebný poplatek ve výši nejméně %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Highlandrpc
+rpcuser=Fdelrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fdel Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Highland will not work properly.</source>
-        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Highland nebude pracovat správně. </translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fdel will not work properly.</source>
+        <translation>Upozornění: Zkontroluj prosím datum a čas tvého počítače! Pokud jdou tvé hodiny špatně, tak Fdel nebude pracovat správně. </translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3155,7 +3155,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Highland is shutting down.</source>
+        <source>Initialization sanity check failed. Fdel is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3220,13 +3220,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Highland</source>
-        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Highlandu</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fdel</source>
+        <translation>Chyba načítání wallet.dat: Peněženka vyžaduje novější verzi Fdelu</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Highland to complete</source>
-        <translation>Peněženka by potřebovala být přepsána: restartuj Highland pro dokončení</translation>
+        <source>Wallet needed to be rewritten: restart Fdel to complete</source>
+        <translation>Peněženka by potřebovala být přepsána: restartuj Fdel pro dokončení</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3290,8 +3290,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Highland is probably already running.</source>
-        <translation>Nemůžu se svázat s %s na tomto počítači. Highland nejspíše již běží.</translation>
+        <source>Unable to bind to %s on this computer. Fdel is probably already running.</source>
+        <translation>Nemůžu se svázat s %s na tomto počítači. Fdel nejspíše již běží.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3330,7 +3330,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Highland is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fdel is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

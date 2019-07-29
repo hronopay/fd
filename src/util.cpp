@@ -77,7 +77,7 @@ bool fLiteMode = false;
 bool fEnableInstantX = true;
 int nInstantXDepth = 10;
 int nDarksendRounds = 2;
-int nAnonymizeHighlandAmount = 1000;
+int nAnonymizeFdelAmount = 1000;
 int nLiquidityProvider = 0;
 /** Spork enforcement enabled time */
 int64_t enforceMasternodePaymentsTime = 4085657524;
@@ -1041,7 +1041,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Highland";
+    const char* pszModule = "Fdel";
 #endif
     if (pex)
         return strprintf(
@@ -1071,13 +1071,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Highland
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Highland
-    // Mac: ~/Library/Application Support/Highland
-    // Unix: ~/.Highland
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Fdel
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Fdel
+    // Mac: ~/Library/Application Support/Fdel
+    // Unix: ~/.Fdel
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Highland";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "Fdel";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1089,10 +1089,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Highland";
+    return pathRet / "Fdel";
 #else
     // Unix
-    return pathRet / ".Highland";
+    return pathRet / ".Fdel";
 #endif
 #endif
 }
@@ -1141,7 +1141,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "Highland.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "Fdel.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1186,7 +1186,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "highlandd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "fdeld.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

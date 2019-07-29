@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Highland Secure Messaging from Qt view code. */
+/** Interface to Fdel Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

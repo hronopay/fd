@@ -1,14 +1,14 @@
 
-Highland development tree
+Fdel development tree
 
-Highland is a PoS-based cryptocurrency.
+Fdel is a PoS-based cryptocurrency.
 
-HIGHLAND is dependent upon libsecp256k1 by sipa, the sources for which can be found here:
+FDEL is dependent upon libsecp256k1 by sipa, the sources for which can be found here:
 https://github.com/bitcoin/secp256k1
 
-#Highland Coin Specification
+#Fdel Coin Specification
 
-Coin Name : Highland
+Coin Name : Fdel
 
 Ticker : HLD
 

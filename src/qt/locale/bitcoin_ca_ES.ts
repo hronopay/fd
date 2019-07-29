@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Highland</source>
-        <translation>Sobre Highland</translation>
+        <source>About Fdel</source>
+        <translation>Sobre Fdel</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Highland&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;Highland&lt;/b&gt;</translation>
+        <source>&lt;b&gt;Fdel&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;Fdel&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Highland developers</source>
+Copyright © 2015-2017 The Fdel developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Highland developers</translation>
+Copyright © 2015-2017 The Fdel developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Highland addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de Highland per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your Fdel addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de Fdel per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Highland address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Highland</translation>
+        <source>Sign a message to prove you own a Fdel address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Fdel</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Highland address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Highland especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified Fdel address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Fdel especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Highland will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Highland tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>Fdel will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Fdel tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Highland</source>
-        <translation>Mostra informació sobre Highland</translation>
+        <source>Show information about Fdel</source>
+        <translation>Mostra informació sobre Fdel</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Highland address</source>
-        <translation>Enviar monedes a una adreça Highland</translation>
+        <source>Send coins to a Fdel address</source>
+        <translation>Enviar monedes a una adreça Fdel</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Highland</source>
-        <translation>Modificar les opcions de configuració per a Highland</translation>
+        <source>Modify configuration options for Fdel</source>
+        <translation>Modificar les opcions de configuració per a Fdel</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Highland</source>
-        <translation>Highland</translation>
+        <source>Fdel</source>
+        <translation>Fdel</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Highland</source>
-        <translation>&amp;Sobre Highland</translation>
+        <source>&amp;About Fdel</source>
+        <translation>&amp;Sobre Fdel</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Highland client</source>
-        <translation>Client Highland</translation>
+        <source>Fdel client</source>
+        <translation>Client Fdel</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Highland network</source>
-        <translation><numerusform>%n conexió activa a la xarxa Highland</numerusform><numerusform>%n conexions actives a la xarxa Highland</numerusform></translation>
+        <source>%n active connection(s) to Fdel network</source>
+        <translation><numerusform>%n conexió activa a la xarxa Fdel</numerusform><numerusform>%n conexions actives a la xarxa Fdel</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -596,8 +596,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Highland address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Highland no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fdel address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Fdel no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -719,8 +719,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Highland can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. Highland ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. Fdel can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. Fdel ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Highland address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Highland vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fdel address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Fdel vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Highland-Qt</source>
-        <translation>Highland-Qt</translation>
+        <source>Fdel-Qt</source>
+        <translation>Fdel-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Highland after logging in to the system.</source>
-        <translation>Inicia automàticament Highland després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start Fdel after logging in to the system.</source>
+        <translation>Inicia automàticament Fdel després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Highland on system login</source>
-        <translation>&amp;Iniciar Highland amb l&apos;inici de sessió</translation>
+        <source>&amp;Start Fdel on system login</source>
+        <translation>&amp;Iniciar Fdel amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1160,8 +1160,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Highland client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client Highland en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the Fdel client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client Fdel en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1170,8 +1170,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Highland network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa Highland través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the Fdel network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa Fdel través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1245,8 +1245,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Highland.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Highland.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fdel.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Fdel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1312,8 +1312,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Highland.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Highland.</translation>
+        <source>This setting will take effect after restarting Fdel.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Fdel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1331,8 +1331,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Highland network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Highland després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fdel network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Fdel després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1573,8 +1573,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Highland-Qt help message to get a list with possible Highland command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de Highland-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Highland.</translation>
+        <source>Show the Fdel-Qt help message to get a list with possible Fdel command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de Fdel-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Fdel.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1593,13 +1593,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Highland - Debug window</source>
-        <translation>Highland - Finestra Depuració</translation>
+        <source>Fdel - Debug window</source>
+        <translation>Fdel - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Highland Core</source>
-        <translation>Nucli Highland</translation>
+        <source>Fdel Core</source>
+        <translation>Nucli Fdel</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1608,8 +1608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Highland debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració Highland des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the Fdel debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració Fdel des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1618,8 +1618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Highland RPC console.</source>
-        <translation>Benvingut a la consola RPC de Highland.</translation>
+        <source>Welcome to the Fdel RPC console.</source>
+        <translation>Benvingut a la consola RPC de Fdel.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1727,8 +1727,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HIGHLAND</source>
-        <translation>123.456 HIGHLAND {0.00 ?}</translation>
+        <source>0.00 FDEL</source>
+        <translation>123.456 FDEL {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1797,8 +1797,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HIGHLAND</source>
-        <translation>123.456 HIGHLAND</translation>
+        <source>123.456 FDEL</source>
+        <translation>123.456 FDEL</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1812,8 +1812,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Highland (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Fdel (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1912,8 +1912,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Highland address</source>
-        <translation>ADVERTÈNCIA: Direcció Highland invàlida</translation>
+        <source>WARNING: Invalid Fdel address</source>
+        <translation>ADVERTÈNCIA: Direcció Fdel invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1986,8 +1986,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Highland (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Fdel (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2047,8 +2047,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Highland address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Highland</translation>
+        <source>Sign the message to prove you own this Fdel address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Fdel</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2079,8 +2079,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Highland address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Highland especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified Fdel address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Fdel especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2090,8 +2090,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Highland (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça Fdel (p.ex. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2100,8 +2100,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Highland signature</source>
-        <translation>Introduïu la signatura Highland</translation>
+        <source>Enter Fdel signature</source>
+        <translation>Introduïu la signatura Fdel</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2679,8 +2679,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Highland version</source>
-        <translation>versió Highland</translation>
+        <source>Fdel version</source>
+        <translation>versió Fdel</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2689,8 +2689,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or highlandd</source>
-        <translation>Enviar comandes a -server o highlandd</translation>
+        <source>Send command to -server or fdeld</source>
+        <translation>Enviar comandes a -server o fdeld</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2709,13 +2709,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Highland.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: Highland.conf)</translation>
+        <source>Specify configuration file (default: Fdel.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: Fdel.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: highlandd.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: highlandd.pid)</translation>
+        <source>Specify pid file (default: fdeld.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: fdeld.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2732,13 +2732,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Highlandrpc
+rpcuser=Fdelrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fdel Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2844,8 +2844,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Highland will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Highland no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fdel will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Fdel no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3152,7 +3152,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Highland is shutting down.</source>
+        <source>Initialization sanity check failed. Fdel is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3217,13 +3217,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Highland</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Highland</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fdel</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Fdel</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Highland to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar Highland per completar</translation>
+        <source>Wallet needed to be rewritten: restart Fdel to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar Fdel per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3287,8 +3287,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Highland is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. Highland probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. Fdel is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. Fdel probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3327,7 +3327,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Highland is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fdel is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

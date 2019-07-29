@@ -52,9 +52,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Highlands");
-    case mBTC: return QString("Milli-Highlands (1 / 1,000)");
-    case uBTC: return QString("Micro-Highlands (1 / 1,000,000)");
+    case BTC: return QString("Fdels");
+    case mBTC: return QString("Milli-Fdels (1 / 1,000)");
+    case uBTC: return QString("Micro-Fdels (1 / 1,000,000)");
     default: return QString("???");
     }
 }

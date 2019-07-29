@@ -52,12 +52,12 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Highland version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("Fdel version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  highlandd [options]                     " + "\n" +
-                  "  highlandd [options] <command> [params]  " + _("Send command to -server or highlandd") + "\n" +
-                  "  highlandd [options] help                " + _("List commands") + "\n" +
-                  "  highlandd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  fdeld [options]                     " + "\n" +
+                  "  fdeld [options] <command> [params]  " + _("Send command to -server or fdeld") + "\n" +
+                  "  fdeld [options] help                " + _("List commands") + "\n" +
+                  "  fdeld [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 
@@ -67,7 +67,7 @@ bool AppInit(int argc, char* argv[])
 
         // Command-line RPC
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "Highland:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "Fdel:"))
                 fCommandLine = true;
 
         if (fCommandLine)

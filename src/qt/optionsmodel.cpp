@@ -66,13 +66,13 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    if (!settings.contains("nAnonymizeHighlandAmount"))
-        settings.setValue("nAnonymizeHighlandAmount", 1000);
-    nAnonymizeHighlandAmount = settings.value("nAnonymizeHighlandAmount").toLongLong();
+    if (!settings.contains("nAnonymizeFdelAmount"))
+        settings.setValue("nAnonymizeFdelAmount", 1000);
+    nAnonymizeFdelAmount = settings.value("nAnonymizeFdelAmount").toLongLong();
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeHighlandAmount"))
-        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeHighlandAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeFdelAmount"))
+        SoftSetArg("-anonymizetraveamount", settings.value("nAnonymizeFdelAmount").toString().toStdString());
 
 
 
@@ -206,8 +206,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return fCoinControlFeatures;
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeHighlandAmount:
-            return QVariant(nAnonymizeHighlandAmount);
+        case AnonymizeFdelAmount:
+            return QVariant(nAnonymizeFdelAmount);
         case UseBlackTheme:
             return QVariant(fUseBlackTheme);
         default:
@@ -318,10 +318,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeHighlandAmount:
-            nAnonymizeHighlandAmount = value.toInt();
-            settings.setValue("nAnonymizeHighlandAmount", nAnonymizeHighlandAmount);
-            emit AnonymizeHighlandAmountChanged(nAnonymizeHighlandAmount);
+        case AnonymizeFdelAmount:
+            nAnonymizeFdelAmount = value.toInt();
+            settings.setValue("nAnonymizeFdelAmount", nAnonymizeFdelAmount);
+            emit AnonymizeFdelAmountChanged(nAnonymizeFdelAmount);
             break;
         default:
             break;

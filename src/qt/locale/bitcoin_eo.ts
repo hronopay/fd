@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Highland</source>
+        <source>About Fdel</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Highland&lt;/b&gt; version</source>
+        <source>&lt;b&gt;Fdel&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Highland developers</source>
+Copyright © 2015-2017 The Fdel developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,7 +58,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Highland addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Fdel addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -73,7 +73,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Highland address</source>
+        <source>Sign a message to prove you own a Fdel address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -88,7 +88,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Highland address</source>
+        <source>Verify a message to ensure it was signed with a specified Fdel address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -256,7 +256,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Highland will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <source>Fdel will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -350,7 +350,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Highland</source>
+        <source>Show information about Fdel</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -390,12 +390,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Highland address</source>
+        <source>Send coins to a Fdel address</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Highland</source>
+        <source>Modify configuration options for Fdel</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -436,7 +436,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Highland</source>
+        <source>Fdel</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -446,7 +446,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Highland</source>
+        <source>&amp;About Fdel</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -498,12 +498,12 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Highland client</source>
+        <source>Fdel client</source>
         <translation type="unfinished"/>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Highland network</source>
+        <source>%n active connection(s) to Fdel network</source>
         <translation type="unfinished"><numerusform></numerusform><numerusform></numerusform></translation>
     </message>
     <message>
@@ -598,7 +598,7 @@ Adreso: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Highland address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Fdel address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -721,7 +721,7 @@ Adreso: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Highland can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Fdel can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1041,7 +1041,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Highland address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Fdel address.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1060,7 +1060,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Highland-Qt</source>
+        <source>Fdel-Qt</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1133,12 +1133,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Highland after logging in to the system.</source>
+        <source>Automatically start Fdel after logging in to the system.</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Highland on system login</source>
+        <source>&amp;Start Fdel on system login</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1148,7 +1148,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Highland client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the Fdel client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1158,7 +1158,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Highland network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Fdel network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1233,7 +1233,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Highland.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fdel.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1300,7 +1300,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Highland.</source>
+        <source>This setting will take effect after restarting Fdel.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1319,7 +1319,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Highland network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fdel network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1561,7 +1561,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Highland-Qt help message to get a list with possible Highland command-line options.</source>
+        <source>Show the Fdel-Qt help message to get a list with possible Fdel command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1581,12 +1581,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Highland - Debug window</source>
+        <source>Fdel - Debug window</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+25"/>
-        <source>Highland Core</source>
+        <source>Fdel Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1596,7 +1596,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Highland debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Fdel debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1606,7 +1606,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Highland RPC console.</source>
+        <source>Welcome to the Fdel RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1715,7 +1715,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HIGHLAND</source>
+        <source>0.00 FDEL</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1785,7 +1785,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HIGHLAND</source>
+        <source>123.456 FDEL</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1800,7 +1800,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1900,7 +1900,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Highland address</source>
+        <source>WARNING: Invalid Fdel address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1974,7 +1974,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -2035,7 +2035,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Highland address</source>
+        <source>Sign the message to prove you own this Fdel address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2067,7 +2067,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Highland address</source>
+        <source>Verify the message to ensure it was signed with the specified Fdel address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2078,7 +2078,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2088,7 +2088,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Highland signature</source>
+        <source>Enter Fdel signature</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2667,7 +2667,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Highland version</source>
+        <source>Fdel version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2677,7 +2677,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or highlandd</source>
+        <source>Send command to -server or fdeld</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2697,12 +2697,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Highland.conf)</source>
+        <source>Specify configuration file (default: Fdel.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: highlandd.pid)</source>
+        <source>Specify pid file (default: fdeld.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2720,13 +2720,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Highlandrpc
+rpcuser=Fdelrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fdel Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2832,7 +2832,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Highland will not work properly.</source>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fdel will not work properly.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3138,7 +3138,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Highland is shutting down.</source>
+        <source>Initialization sanity check failed. Fdel is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3203,12 +3203,12 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Highland</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fdel</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Highland to complete</source>
+        <source>Wallet needed to be rewritten: restart Fdel to complete</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3273,7 +3273,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Highland is probably already running.</source>
+        <source>Unable to bind to %s on this computer. Fdel is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3313,7 +3313,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Highland is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fdel is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

@@ -166,7 +166,7 @@ public:
 
 
 // -- get at the data
-class CHighlandAddress_B : public CHighlandAddress
+class CFdelAddress_B : public CFdelAddress
 {
 public:
     uint8_t getVersion()

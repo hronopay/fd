@@ -43,7 +43,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Highland address (e.g. C8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Fdel address (e.g. C8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)"));
 #endif
 
     addEntry();
@@ -537,7 +537,7 @@ bool SendCoinsDialog::handleURI(const QString &uri)
     // URI has to be valid
     if (GUIUtil::parseBitcoinURI(uri, &rv))
     {
-        CHighlandAddress address(rv.address.toStdString());
+        CFdelAddress address(rv.address.toStdString());
         if (!address.IsValid())
             return false;
         pasteEntry(rv);
@@ -847,7 +847,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         CoinControlDialog::coinControl->destChange = CNoDestination();
         ui->labelCoinControlChangeLabel->setStyleSheet("QLabel{color:red;}");
 
-        CHighlandAddress addr = CHighlandAddress(text.toStdString());
+        CFdelAddress addr = CFdelAddress(text.toStdString());
 
         if (text.isEmpty()) // Nothing entered
         {
@@ -855,7 +855,7 @@ void SendCoinsDialog::coinControlChangeEdited(const QString& text)
         }
         else if (!addr.IsValid()) // Invalid address
         {
-            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Highland address"));
+            ui->labelCoinControlChangeLabel->setText(tr("Warning: Invalid Fdel address"));
         }
         else // Valid address
         {

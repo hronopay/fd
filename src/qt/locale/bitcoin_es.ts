@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Highland</source>
-        <translation>Acerca de Highland</translation>
+        <source>About Fdel</source>
+        <translation>Acerca de Fdel</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Highland&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Highland&lt;/b&gt; versión</translation>
+        <source>&lt;b&gt;Fdel&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Fdel&lt;/b&gt; versión</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Highland developers</source>
+Copyright © 2015-2017 The Fdel developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2015-2017 The Highland developers</translation>
+Copyright © 2015-2017 The Fdel developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Highland addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Estas son las direcciones de Highland para recibir pagos. Es posible que desee dar una diferente a cada remitente para que pueda realizar un seguimiento de quien te está pagando.</translation>
+        <source>These are your Fdel addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Estas son las direcciones de Fdel para recibir pagos. Es posible que desee dar una diferente a cada remitente para que pueda realizar un seguimiento de quien te está pagando.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Highland address</source>
-        <translation>Firmar un mensaje para demostrar que es dueño de su dirección de Highland</translation>
+        <source>Sign a message to prove you own a Fdel address</source>
+        <translation>Firmar un mensaje para demostrar que es dueño de su dirección de Fdel</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Highland address</source>
-        <translation>Verifique el mensaje para asegurarse que fue firmado por una dirección específica de Highland</translation>
+        <source>Verify a message to ensure it was signed with a specified Fdel address</source>
+        <translation>Verifique el mensaje para asegurarse que fue firmado por una dirección específica de Fdel</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Highland will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Highland cerrará para terminar el proceso de encriptación. Recuerde que la encriptación de su monedero no puede proteger completamente que sus monedas sean robadas por malware infectando su computadora.</translation>
+        <source>Fdel will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>Fdel cerrará para terminar el proceso de encriptación. Recuerde que la encriptación de su monedero no puede proteger completamente que sus monedas sean robadas por malware infectando su computadora.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Highland</source>
-        <translation>Mostrar información sobre Highland</translation>
+        <source>Show information about Fdel</source>
+        <translation>Mostrar información sobre Fdel</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Highland address</source>
-        <translation>Enviar monedas a una dirección de Highland</translation>
+        <source>Send coins to a Fdel address</source>
+        <translation>Enviar monedas a una dirección de Fdel</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Highland</source>
-        <translation>Modificar las opciones de configuración para Highland</translation>
+        <source>Modify configuration options for Fdel</source>
+        <translation>Modificar las opciones de configuración para Fdel</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Highland</source>
-        <translation>Highland</translation>
+        <source>Fdel</source>
+        <translation>Fdel</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Highland</source>
-        <translation>Acerca de Highland</translation>
+        <source>&amp;About Fdel</source>
+        <translation>Acerca de Fdel</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Highland client</source>
-        <translation>Cliente Highland</translation>
+        <source>Fdel client</source>
+        <translation>Cliente Fdel</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Highland network</source>
-        <translation><numerusform>%n conexión activa a la red Highland</numerusform><numerusform>%n conexiones activas a la red Highland</numerusform></translation>
+        <source>%n active connection(s) to Fdel network</source>
+        <translation><numerusform>%n conexión activa a la red Fdel</numerusform><numerusform>%n conexiones activas a la red Fdel</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Dirección: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Highland address or malformed URI parameters.</source>
-        <translation>URI no se puede analizar! Esto puede ser causado por una dirección de Highland no válida o parámetros de URI malformados.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid Fdel address or malformed URI parameters.</source>
+        <translation>URI no se puede analizar! Esto puede ser causado por una dirección de Fdel no válida o parámetros de URI malformados.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Dirección: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Highland can no longer continue safely and will quit.</source>
-        <translation>Se ha producido un error fatal. Highland ya no puede continuar de forma segura y cerrará.</translation>
+        <source>A fatal error occurred. Fdel can no longer continue safely and will quit.</source>
+        <translation>Se ha producido un error fatal. Fdel ya no puede continuar de forma segura y cerrará.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Highland address.</source>
-        <translation>La dirección introducida &quot;%1&quot; no es una dirección válida de Highland.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Fdel address.</source>
+        <translation>La dirección introducida &quot;%1&quot; no es una dirección válida de Fdel.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Highland-Qt</source>
-        <translation>Highland-Qt</translation>
+        <source>Fdel-Qt</source>
+        <translation>Fdel-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Highland after logging in to the system.</source>
-        <translation>Iniciar Highland automáticamente después de entrar en el sistema.</translation>
+        <source>Automatically start Fdel after logging in to the system.</source>
+        <translation>Iniciar Fdel automáticamente después de entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Highland on system login</source>
-        <translation>&amp;Iniciar Highland al inicio del sistema</translation>
+        <source>&amp;Start Fdel on system login</source>
+        <translation>&amp;Iniciar Fdel al inicio del sistema</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Highland client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto de cliente Highland en el router. Esto sólo funciona cuando el router es compatible con UPnP y está habilitado.</translation>
+        <source>Automatically open the Fdel client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto de cliente Fdel en el router. Esto sólo funciona cuando el router es compatible con UPnP y está habilitado.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Highland network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Conéctese a la red de Highland a través de un SOCKS proxy (e.g. cuando se conecta a través de Tor)</translation>
+        <source>Connect to the Fdel network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Conéctese a la red de Fdel a través de un SOCKS proxy (e.g. cuando se conecta a través de Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Highland.</source>
-        <translation>El idioma del interfaz de usuario se puede configurar aquí. Esta configuración se aplicará después de reiniciar Highland.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Fdel.</source>
+        <translation>El idioma del interfaz de usuario se puede configurar aquí. Esta configuración se aplicará después de reiniciar Fdel.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Highland.</source>
-        <translation>Esta configuración se aplicará después de reiniciar Highland.</translation>
+        <source>This setting will take effect after restarting Fdel.</source>
+        <translation>Esta configuración se aplicará después de reiniciar Fdel.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Highland network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar fuera de fecha. Su monedera se sincroniza automáticamente con la red Highland después de que se establece una conexión, pero este proceso no se ha completado todavía.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fdel network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar fuera de fecha. Su monedera se sincroniza automáticamente con la red Fdel después de que se establece una conexión, pero este proceso no se ha completado todavía.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1577,8 +1577,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Highland-Qt help message to get a list with possible Highland command-line options.</source>
-        <translation>Mostrar el mensaje de ayuda de Highland-Qt para obtener una lista con las posibles opciones de línea de comandos para Highland.</translation>
+        <source>Show the Fdel-Qt help message to get a list with possible Fdel command-line options.</source>
+        <translation>Mostrar el mensaje de ayuda de Fdel-Qt para obtener una lista con las posibles opciones de línea de comandos para Fdel.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Highland - Debug window</source>
-        <translation>Highland - Ventana de depuración</translation>
+        <source>Fdel - Debug window</source>
+        <translation>Fdel - Ventana de depuración</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Highland Core</source>
-        <translation>Núcleo Highland</translation>
+        <source>Fdel Core</source>
+        <translation>Núcleo Fdel</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Highland debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abre el archivo de registro de Highland del directorio de datos actual. Esto puede tardar algunos segundos para archivos grandes.</translation>
+        <source>Open the Fdel debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abre el archivo de registro de Fdel del directorio de datos actual. Esto puede tardar algunos segundos para archivos grandes.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Highland RPC console.</source>
-        <translation>Bienvenido a la consola RPC de Highland</translation>
+        <source>Welcome to the Fdel RPC console.</source>
+        <translation>Bienvenido a la consola RPC de Fdel</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 HIGHLAND</source>
-        <translation>123.456 HIGHLAND {0.00 ?}</translation>
+        <source>0.00 FDEL</source>
+        <translation>123.456 FDEL {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 HIGHLAND</source>
-        <translation>123.456 HIGHLAND</translation>
+        <source>123.456 FDEL</source>
+        <translation>123.456 FDEL</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduce una dirección Highland (p.ej. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduce una dirección Fdel (p.ej. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Highland address</source>
-        <translation>ADVERTENCIA: Dirección Highland inválida</translation>
+        <source>WARNING: Invalid Fdel address</source>
+        <translation>ADVERTENCIA: Dirección Fdel inválida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduce una dirección Highland (p.ej. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduce una dirección Fdel (p.ej. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Highland address</source>
-        <translation>Firma el mensaje para demostrar que posees esta dirección Highland.</translation>
+        <source>Sign the message to prove you own this Fdel address</source>
+        <translation>Firma el mensaje para demostrar que posees esta dirección Fdel.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Highland address</source>
-        <translation>Verifique el mensaje para asegurarse de que se firmó con la dirección Highland especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified Fdel address</source>
+        <translation>Verifique el mensaje para asegurarse de que se firmó con la dirección Fdel especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Highland address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introduce una dirección Highland (p.ej H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a Fdel address (e.g. H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introduce una dirección Fdel (p.ej H8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Highland signature</source>
-        <translation>Introduce la firma Highland</translation>
+        <source>Enter Fdel signature</source>
+        <translation>Introduce la firma Fdel</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Highland version</source>
-        <translation>versión Highland</translation>
+        <source>Fdel version</source>
+        <translation>versión Fdel</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or highlandd</source>
-        <translation>Envía un comando a -server o highlandd</translation>
+        <source>Send command to -server or fdeld</source>
+        <translation>Envía un comando a -server o fdeld</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2716,13 +2716,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Highland.conf)</source>
-        <translation>Especifica un archivo de configuración (por defecto: Highland.conf)</translation>
+        <source>Specify configuration file (default: Fdel.conf)</source>
+        <translation>Especifica un archivo de configuración (por defecto: Fdel.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: highlandd.pid)</source>
-        <translation>Especifica un archivo pid (por defecto: highlandd.pid)</translation>
+        <source>Specify pid file (default: fdeld.pid)</source>
+        <translation>Especifica un archivo pid (por defecto: fdeld.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2739,13 +2739,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Highlandrpc
+rpcuser=Fdelrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Fdel Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2854,8 +2854,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Highland will not work properly.</source>
-        <translation>Advertencia: Verifique que la fecha y hora del equipo sean correctas! Si su reloj es erróneo Highland no funcionará correctamente.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fdel will not work properly.</source>
+        <translation>Advertencia: Verifique que la fecha y hora del equipo sean correctas! Si su reloj es erróneo Fdel no funcionará correctamente.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3168,7 +3168,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Highland is shutting down.</source>
+        <source>Initialization sanity check failed. Fdel is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3234,13 +3234,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Highland</source>
-        <translation>Error cargando wallet.dat: El monedero requiere una nueva versión de Highland</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Fdel</source>
+        <translation>Error cargando wallet.dat: El monedero requiere una nueva versión de Fdel</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Highland to complete</source>
-        <translation>El monedero necesita ser reescrito: reinicie Highland para completar</translation>
+        <source>Wallet needed to be rewritten: restart Fdel to complete</source>
+        <translation>El monedero necesita ser reescrito: reinicie Fdel para completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3304,8 +3304,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Highland is probably already running.</source>
-        <translation>No se puede enlazar a %s en este equipo. Highland probablemente ya esté en funcionamiento.</translation>
+        <source>Unable to bind to %s on this computer. Fdel is probably already running.</source>
+        <translation>No se puede enlazar a %s en este equipo. Fdel probablemente ya esté en funcionamiento.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3344,7 +3344,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Highland Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Highland is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Fdel is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

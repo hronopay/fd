@@ -226,11 +226,11 @@ int CBase58Data::CompareTo(const CBase58Data& b58) const {
 }
 
 namespace {
-    class CHighlandAddressVisitor : public boost::static_visitor<bool> {
+    class CFdelAddressVisitor : public boost::static_visitor<bool> {
     private:
-        CHighlandAddress *addr;
+        CFdelAddress *addr;
     public:
-        CHighlandAddressVisitor(CHighlandAddress *addrIn) : addr(addrIn) { }
+        CFdelAddressVisitor(CFdelAddress *addrIn) : addr(addrIn) { }
 
         bool operator()(const CKeyID &id) const { return addr->Set(id); }
         bool operator()(const CScriptID &id) const { return addr->Set(id); }
@@ -250,28 +250,28 @@ namespace {
     };
 };
 
-bool CHighlandAddress::Set(const CKeyID &id) {
+bool CFdelAddress::Set(const CKeyID &id) {
     SetData(Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS), &id, 20);
     return true;
 }
 
-bool CHighlandAddress::Set(const CScriptID &id) {
+bool CFdelAddress::Set(const CScriptID &id) {
     SetData(Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS), &id, 20);
     return true;
 }
 
-bool CHighlandAddress::Set(const CTxDestination &dest) {
-    return boost::apply_visitor(CHighlandAddressVisitor(this), dest);
+bool CFdelAddress::Set(const CTxDestination &dest) {
+    return boost::apply_visitor(CFdelAddressVisitor(this), dest);
 }
 
-bool CHighlandAddress::IsValid() const {
+bool CFdelAddress::IsValid() const {
     bool fCorrectSize = vchData.size() == 20;
     bool fKnownVersion = vchVersion == Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS) ||
                          vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
     return fCorrectSize && fKnownVersion;
 }
 
-CTxDestination CHighlandAddress::Get() const {
+CTxDestination CFdelAddress::Get() const {
     if (!IsValid())
         return CNoDestination();
     uint160 id;
@@ -284,7 +284,7 @@ CTxDestination CHighlandAddress::Get() const {
         return CNoDestination();
 }
 
-bool CHighlandAddress::GetKeyID(CKeyID &keyID) const {
+bool CFdelAddress::GetKeyID(CKeyID &keyID) const {
     if (!IsValid() || vchVersion != Params().Base58Prefix(CChainParams::PUBKEY_ADDRESS))
         return false;
     uint160 id;
@@ -293,34 +293,34 @@ bool CHighlandAddress::GetKeyID(CKeyID &keyID) const {
     return true;
 }
 
-bool CHighlandAddress::IsScript() const {
+bool CFdelAddress::IsScript() const {
     return IsValid() && vchVersion == Params().Base58Prefix(CChainParams::SCRIPT_ADDRESS);
 }
 
-void CHighlandSecret::SetKey(const CKey& vchSecret) {
+void CFdelSecret::SetKey(const CKey& vchSecret) {
     assert(vchSecret.IsValid());
     SetData(Params().Base58Prefix(CChainParams::SECRET_KEY), vchSecret.begin(), vchSecret.size());
     if (vchSecret.IsCompressed())
         vchData.push_back(1);
 }
 
-CKey CHighlandSecret::GetKey() {
+CKey CFdelSecret::GetKey() {
     CKey ret;
     ret.Set(&vchData[0], &vchData[32], vchData.size() > 32 && vchData[32] == 1);
     return ret;
 }
 
-bool CHighlandSecret::IsValid() const {
+bool CFdelSecret::IsValid() const {
     bool fExpectedFormat = vchData.size() == 32 || (vchData.size() == 33 && vchData[32] == 1);
     bool fCorrectVersion = vchVersion == Params().Base58Prefix(CChainParams::SECRET_KEY);
     return fExpectedFormat && fCorrectVersion;
 }
 
-bool CHighlandSecret::SetString(const char* pszSecret) {
+bool CFdelSecret::SetString(const char* pszSecret) {
     return CBase58Data::SetString(pszSecret) && IsValid();
 }
 
-bool CHighlandSecret::SetString(const std::string& strSecret) {
+bool CFdelSecret::SetString(const std::string& strSecret) {
     return SetString(strSecret.c_str());
 }
 
