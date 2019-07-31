@@ -455,7 +455,7 @@ void BitcoinGUI::createToolBars()
 */
     toolbar->setStyleSheet("QToolButton { color: #000000; font-size: 14px; font-family: Georgia,Times,Times New Roman,serif; font-weight: 400; font-variant: small-caps; padding: 3px; border: none;}"
                            "QToolButton:hover { color: #ffffff; background-color: #000000; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "QToolButton:checked { color: #ffffff; background-color: #555555; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:checked { color: #ffffff; background-color: #bbbbbb; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "QToolButton:pressed { color: #000000; background-color: #999999; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "#tabs { color: #ffffff; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
