@@ -106,7 +106,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
 #endif
     setObjectName("Fdel");
 //    setStyleSheet("#Fdel { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #dedede, stop: 1 #efefef);  }");
-    setStyleSheet("#Fdel { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #000000, stop: 1 #060606);  }");
+    setStyleSheet("#Fdel { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #ffffff, stop: 1 #060606);  }");
     // Accept D&D of URIs
     setAcceptDrops(true);
 
@@ -231,7 +231,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     statusBar()->addWidget(progressBar);
     statusBar()->addPermanentWidget(frameBlocks);
     statusBar()->setObjectName("statusBar");
-    statusBar()->setStyleSheet("#statusBar { color: #ffffff; background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 0.6, stop: 0 #101010, stop: 1 #000000);  }");
+    statusBar()->setStyleSheet("#statusBar { color: #ff0000; background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 0.6, stop: 0 #101010, stop: 1 #ffffff);  }");
 
     syncIconMovie = new QMovie(fUseBlackTheme ? ":/movies/update_spinner_black" : ":/movies/update_spinner", "mng", this);
 
@@ -434,7 +434,7 @@ static QWidget* makeToolBarSpacer()
     QWidget *spacer = new QWidget();
     spacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 //    spacer->setStyleSheet("QWidget { background: none; }");
-    spacer->setStyleSheet("QWidget { background: #000000; }");
+    spacer->setStyleSheet("QWidget { background: #ffffff; }");
     //spacer->setStyleSheet("QWidget { background: #005500; }");
     return spacer;
 }
@@ -454,10 +454,10 @@ void BitcoinGUI::createToolBars()
                            "#tabs { color: #000000; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 */
     toolbar->setStyleSheet("QToolButton { color: #ffffff; font-size: 14px; font-family: Georgia,Times,Times New Roman,serif; font-weight: 400; font-variant: small-caps; padding: 3px; border: none;}"
-                           "QToolButton:hover { color: #00ff00; background-color: #000000; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "QToolButton:checked { color: #ffffff; background-color: #008800; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "QToolButton:pressed { color: #ffff00; background-color: #00ff00; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "#tabs { color: #000000; background-color: #000000; border: none; padding-top: 0px; padding-bottom: 0px; }");
+                           "QToolButton:hover { color: #ff0000; background-color: #000000; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:checked { color: #ffffff; background-color: #880000; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:pressed { color: #ffffff; background-color: #ff0000; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "#tabs { color: #ffffff; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
     QLabel* header = new QLabel();
     header->setMinimumSize(142, 142);
@@ -485,7 +485,7 @@ void BitcoinGUI::createToolBars()
 
     QWidget *spacer = makeToolBarSpacer();
     netLabel->setObjectName("netLabel");
-    netLabel->setStyleSheet("#netLabel { color: #00ee00; }");
+    netLabel->setStyleSheet("#netLabel { color: #ffffff; }");
     toolbar->addWidget(spacer);
     toolbar->setOrientation(Qt::Vertical);
     toolbar->setMovable(false);
@@ -731,7 +731,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
         progressBarLabel->setText(tr(clientModel->isImporting() ? "Importing blocks..." : "Synchronizing with network..."));
         progressBarLabel->setVisible(true);
-        progressBarLabel->setStyleSheet("QLabel { color: #ffffff; border: 3px solid #005500; }");        
+        progressBarLabel->setStyleSheet("QLabel { color: #ffffff; border: 3px solid #555555; }");        
         progressBar->setFormat(tr("%1 behind").arg(timeBehindText));
         progressBar->setMaximum(totalSecs);
         progressBar->setValue(totalSecs - secs);
