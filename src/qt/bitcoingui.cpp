@@ -731,7 +731,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
         progressBarLabel->setText(tr(clientModel->isImporting() ? "Importing blocks..." : "Synchronizing with network..."));
         progressBarLabel->setVisible(true);
-        progressBarLabel->setStyleSheet("QLabel { color: #ffffff; border: 1px solid #555555; }");        
+        progressBarLabel->setStyleSheet("QLabel { color: #460000; border: 1px solid #555555; }");        
         progressBar->setFormat(tr("%1 behind").arg(timeBehindText));
         progressBar->setMaximum(totalSecs);
         progressBar->setValue(totalSecs - secs);
