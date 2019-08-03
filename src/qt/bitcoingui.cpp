@@ -460,7 +460,7 @@ void BitcoinGUI::createToolBars()
                            "#tabs { color: #ffffff; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
     QLabel* header = new QLabel();
-    header->setMinimumSize(142, 142);
+    header->setMinimumSize(82, 82);
     header->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     header->setPixmap(QPixmap(":/images/header"));
     header->setMaximumSize(180,180);
@@ -493,7 +493,7 @@ void BitcoinGUI::createToolBars()
     addToolBar(Qt::LeftToolBarArea, toolbar);
 
     foreach(QAction *action, toolbar->actions()) {
-        toolbar->widgetForAction(action)->setFixedWidth(42);
+        toolbar->widgetForAction(action)->setFixedWidth(82);
     }
 }
 
