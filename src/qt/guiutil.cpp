@@ -751,9 +751,9 @@ void SetBlackThemeQSS(QApplication& app)
                       "QProgressBar   { color: rgb(0,0,0); border-color: rgb(0,0,0); border-width: 1px; border-style: solid; }"
                       "QProgressBar::chunk { background: rgb(220,220,220); }"
                       "QTreeView::item { background: rgb(255,255,255); color: rgb(0,0,0); }"
-                      "QTreeView::item:selected { background-color: rgb(140,140,140); }"
+                      "QTreeView::item:selected { background-color: rgb(0,204,255); }"
                       "QTableView     { gridline-color: rgb(33,33,33); }"
-                      "QHeaderView::section { background: rgb(85,85,85); color: rgb(255,255,255); }"
+                      "QHeaderView::section { background: rgb(0,204,255); color: rgb(255,255,255); }"
                       "QToolBar       { background: rgb(255,255,255); border: none; }");
 
 /*
