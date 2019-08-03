@@ -310,7 +310,7 @@ void BitcoinGUI::createActions()
     masternodeManagerAction->setToolTip(tr("Show Master Nodes status and configure your nodes."));
     masternodeManagerAction->setCheckable(true);
     tabGroup->addAction(masternodeManagerAction);
-/*
+
     messageAction = new QAction(QIcon(":/icons/edit"), tr("&Messages"), this);
     messageAction->setToolTip(tr("View and Send Encrypted messages"));
     messageAction->setCheckable(true);
@@ -320,8 +320,8 @@ void BitcoinGUI::createActions()
     blockAction->setToolTip(tr("Explore the BlockChain"));
     blockAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
     blockAction->setCheckable(true);
-    tabGroup->addAction(blockAction);
-*/
+    //tabGroup->addAction(blockAction);
+
     TradingAction = new QAction(QIcon(":/icons/trade"), tr("&Bittrex"), this);
     TradingAction ->setToolTip(tr("Start Trading"));
     TradingAction ->setCheckable(true);
@@ -476,10 +476,10 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(masternodeManagerAction);
 
     if (!fLiteMode){
-        toolbar->addAction(messageAction);
+        //toolbar->addAction(messageAction);
     }
 
-    toolbar->addAction(blockAction);
+    //toolbar->addAction(blockAction);
     //toolbar->addAction(TradingAction);
     netLabel = new QLabel();
 
@@ -493,7 +493,7 @@ void BitcoinGUI::createToolBars()
     addToolBar(Qt::LeftToolBarArea, toolbar);
 
     foreach(QAction *action, toolbar->actions()) {
-        toolbar->widgetForAction(action)->setFixedWidth(142);
+        toolbar->widgetForAction(action)->setFixedWidth(42);
     }
 }
 
