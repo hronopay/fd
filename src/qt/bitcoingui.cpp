@@ -459,7 +459,7 @@ void BitcoinGUI::createToolBars()
                            "QToolButton:pressed { color: #000000; background-color: #00c8f8; border: none; padding-top: 0px; padding-bottom: 0px; }"
                            "#tabs { color: #ffffff; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
-    toolbar->setIconSize(QSize(128, 128));
+    toolbar->setIconSize(QSize(64, 64));
 
 
     QLabel* header = new QLabel();
