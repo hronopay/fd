@@ -453,7 +453,7 @@ void BitcoinGUI::createToolBars()
                            "QToolButton:pressed { color: #ffffff; background-color: #c63609; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "#tabs { color: #000000; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 */
-    toolbar->setStyleSheet("QToolButton { color: #000000; font-size: 14px; font-family: Georgia,Times,Times New Roman,serif; font-weight: 400; font-variant: small-caps; padding: 0px; border: none;}"
+    toolbar->setStyleSheet("QToolButton { color: #000000; font-size: 14px; font-family: Georgia,Times,Times New Roman,serif; font-weight: 400; font-variant: small-caps; padding: 3px; border: none;}"
                            "QToolButton:hover { color: #ffffff; background-color: #e3f5fc; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "QToolButton:checked { color: #ffffff; background-color: #c8f0ff; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "QToolButton:pressed { color: #000000; background-color: #00c8f8; border: none; padding-top: 3px; padding-bottom: 3px; }"
@@ -496,7 +496,7 @@ void BitcoinGUI::createToolBars()
     addToolBar(Qt::LeftToolBarArea, toolbar);
 
     foreach(QAction *action, toolbar->actions()) {
-        toolbar->widgetForAction(action)->setFixedWidth(82);
+        toolbar->widgetForAction(action)->setFixedWidth(142);
     }
 }
 
