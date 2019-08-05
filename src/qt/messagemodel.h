@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Fdel Secure Messaging from Qt view code. */
+/** Interface to Alioth Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

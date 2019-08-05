@@ -41,9 +41,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("FDEL");
-    case mBTC: return QString("mFDEL");
-    case uBTC: return QString::fromUtf8("μFDEL");
+    case BTC: return QString("ALTH");
+    case mBTC: return QString("mALTH");
+    case uBTC: return QString::fromUtf8("μALTH");
     default: return QString("???");
     }
 }
@@ -52,9 +52,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Fdels");
-    case mBTC: return QString("Milli-Fdels (1 / 1,000)");
-    case uBTC: return QString("Micro-Fdels (1 / 1,000,000)");
+    case BTC: return QString("Alioths");
+    case mBTC: return QString("Milli-Alioths (1 / 1,000)");
+    case uBTC: return QString("Micro-Alioths (1 / 1,000,000)");
     default: return QString("???");
     }
 }
