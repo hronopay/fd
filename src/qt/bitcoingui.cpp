@@ -276,7 +276,7 @@ void BitcoinGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
-    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&"), this);
+    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&FGHJKLUIY"), this);
     overviewAction->setToolTip(tr("Show general overview of wallet"));
     overviewAction->setCheckable(true);
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
@@ -454,9 +454,9 @@ void BitcoinGUI::createToolBars()
                            "#tabs { color: #000000; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 */
     toolbar->setStyleSheet("QToolButton { color: #000000; font-size: 14px; font-family: Georgia,Times,Times New Roman,serif; font-weight: 400; font-variant: small-caps; padding: 0px; border: none;}"
-                           "QToolButton:hover { color: #ffffff; background-color: #e3f5fc; border: none; padding-top: 0px; padding-bottom: 0px; }"
-                           "QToolButton:checked { color: #ffffff; background-color: #c8f0ff; border: none; padding-top: 0px; padding-bottom: 0px; }"
-                           "QToolButton:pressed { color: #000000; background-color: #00c8f8; border: none; padding-top: 0px; padding-bottom: 0px; }"
+                           "QToolButton:hover { color: #ffffff; background-color: #e3f5fc; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:checked { color: #ffffff; background-color: #c8f0ff; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:pressed { color: #000000; background-color: #00c8f8; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "#tabs { color: #ffffff; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 
     toolbar->setIconSize(QSize(64, 64));
