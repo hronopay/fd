@@ -201,10 +201,10 @@ void TransactionView::setModel(WalletModel *model)
         Pal.setColor(QPalette::Text, Qt::white);
         Pal.setColor(QPalette::Base, Qt::black);
 //        Pal.setColor(QPalette::AlternateBase, Qt::darkGreen);
-        Pal.setColor(QPalette::AlternateBase, QColor(55, 0, 55, 255));
-        Pal.setColor(QPalette::Highlight, QColor(88, 0, 88, 255));
-        Pal.setColor(QPalette::HighlightedText, QColor(255, 200, 10, 255));
- 
+        Pal.setColor(QPalette::AlternateBase, QColor(255, 255, 255, 255));
+        Pal.setColor(QPalette::Highlight, QColor(8, 8, 0, 255));
+        Pal.setColor(QPalette::HighlightedText, QColor(220, 220, 220, 255));
+
 
 
         transactionView->setPalette(Pal);

@@ -96,7 +96,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     nWeight(0)
 {
     resize(900, 520);
-    setWindowTitle(tr("Alioth") + " - " + tr("Wallet"));
+    setWindowTitle(tr("F-del") + " - " + tr("Wallet"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -104,9 +104,9 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     //setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
 #endif
-    setObjectName("Alioth");
-//    setStyleSheet("#Alioth { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #dedede, stop: 1 #efefef);  }");
-    setStyleSheet("#Alioth { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #000000, stop: 1 #060606);  }");
+    setObjectName("Fdel");
+//    setStyleSheet("#Fdel { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #dedede, stop: 1 #efefef);  }");
+    setStyleSheet("#Fdel { background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 1.4, stop: 0 #ffffff, stop: 1 #060606);  }");
     // Accept D&D of URIs
     setAcceptDrops(true);
 
@@ -231,7 +231,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     statusBar()->addWidget(progressBar);
     statusBar()->addPermanentWidget(frameBlocks);
     statusBar()->setObjectName("statusBar");
-    statusBar()->setStyleSheet("#statusBar { color: #ffffff; background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 0.6, stop: 0 #101010, stop: 1 #000000);  }");
+    statusBar()->setStyleSheet("#statusBar { color: #ff0000; background-color: qradialgradient(cx: -0.8, cy: 0, fx: -0.8, fy: 0, radius: 0.6, stop: 0 #555555, stop: 1 #ffffff);  }");
 
     syncIconMovie = new QMovie(fUseBlackTheme ? ":/movies/update_spinner_black" : ":/movies/update_spinner", "mng", this);
 
@@ -250,7 +250,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     // clicking on automatic backups shows details
     connect(showBackupsAction, SIGNAL(triggered()), rpcConsole, SLOT(showBackups()));
 
-    // prevents an oben debug window from becoming stuck/unusable on client shutdown
+    // prevents an open debug window from becoming stuck/unusable on client shutdown
     connect(quitAction, SIGNAL(triggered()), rpcConsole, SLOT(hide()));
 
     // Clicking on "Verify Message" in the address book sends you to the verify message tab
@@ -276,37 +276,37 @@ void BitcoinGUI::createActions()
 {
     QActionGroup *tabGroup = new QActionGroup(this);
 
-    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&Dashboard"), this);
+    overviewAction = new QAction(QIcon(":/icons/overview"), tr("&FGHJKLUIY"), this);
     overviewAction->setToolTip(tr("Show general overview of wallet"));
     overviewAction->setCheckable(true);
     overviewAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_1));
     tabGroup->addAction(overviewAction);
 
-    receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&Receive"), this);
+    receiveCoinsAction = new QAction(QIcon(":/icons/receiving_addresses"), tr("&"), this);
     receiveCoinsAction->setToolTip(tr("Show the list of addresses for receiving payments"));
     receiveCoinsAction->setCheckable(true);
     receiveCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_2));
     tabGroup->addAction(receiveCoinsAction);
 
-    sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Alioth address"));
+    sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&"), this);
+    sendCoinsAction->setToolTip(tr("Send coins to a Fdel address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(sendCoinsAction);
 
-    historyAction = new QAction(QIcon(":/icons/history"), tr("&Transactions"), this);
+    historyAction = new QAction(QIcon(":/icons/history"), tr("&"), this);
     historyAction->setToolTip(tr("Browse transaction history"));
     historyAction->setCheckable(true);
     historyAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_4));
     tabGroup->addAction(historyAction);
 
-    addressBookAction = new QAction(QIcon(":/icons/address-book"), tr("&Addresses"), this);
+    addressBookAction = new QAction(QIcon(":/icons/address-book"), tr("&"), this);
     addressBookAction->setToolTip(tr("Edit the list of stored addresses and labels"));
     addressBookAction->setCheckable(true);
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(addressBookAction);
 
-    masternodeManagerAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Masternodes"), this);
+    masternodeManagerAction = new QAction(QIcon(":/icons/bitcoin"), tr("&"), this);
     masternodeManagerAction->setToolTip(tr("Show Master Nodes status and configure your nodes."));
     masternodeManagerAction->setCheckable(true);
     tabGroup->addAction(masternodeManagerAction);
@@ -314,13 +314,13 @@ void BitcoinGUI::createActions()
     messageAction = new QAction(QIcon(":/icons/edit"), tr("&Messages"), this);
     messageAction->setToolTip(tr("View and Send Encrypted messages"));
     messageAction->setCheckable(true);
-    tabGroup->addAction(messageAction);
+    //tabGroup->addAction(messageAction);
 
     blockAction = new QAction(QIcon(":/icons/block"), tr("&Explorer"), this);
     blockAction->setToolTip(tr("Explore the BlockChain"));
     blockAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
     blockAction->setCheckable(true);
-    tabGroup->addAction(blockAction);
+    //tabGroup->addAction(blockAction);
 
     TradingAction = new QAction(QIcon(":/icons/trade"), tr("&Bittrex"), this);
     TradingAction ->setToolTip(tr("Start Trading"));
@@ -353,14 +353,14 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(QIcon(":icons/alioth"), tr("&About Alioth"), this);
-    aboutAction->setToolTip(tr("Show information about Alioth"));
+    aboutAction = new QAction(QIcon(":icons/fdel"), tr("&About Fdel"), this);
+    aboutAction->setToolTip(tr("Show information about Fdel"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(QIcon(":/qt-project.org/qmessagebox/images/qtlogo-64.png"), tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(QIcon(":/icons/options"), tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Alioth"));
+    optionsAction->setToolTip(tr("Modify configuration options for Fdel"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(QIcon(":/icons/lock_closed"), tr("&Encrypt Wallet..."), this);
@@ -434,7 +434,7 @@ static QWidget* makeToolBarSpacer()
     QWidget *spacer = new QWidget();
     spacer->setSizePolicy(QSizePolicy::Expanding, QSizePolicy::Expanding);
 //    spacer->setStyleSheet("QWidget { background: none; }");
-    spacer->setStyleSheet("QWidget { background: #000000; }");
+    spacer->setStyleSheet("QWidget { background: #ffffff; }");
     //spacer->setStyleSheet("QWidget { background: #005500; }");
     return spacer;
 }
@@ -453,11 +453,14 @@ void BitcoinGUI::createToolBars()
                            "QToolButton:pressed { color: #ffffff; background-color: #c63609; border: none; padding-top: 3px; padding-bottom: 3px; }"
                            "#tabs { color: #000000; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
 */
-    toolbar->setStyleSheet("QToolButton { color: #ffffff; font-size: 14px; font-family: Georgia,Times,Times New Roman,serif; font-weight: 400; font-variant: small-caps; padding: 3px; border: none;}"
-                           "QToolButton:hover { color: #ff00ff; background-color: #000000; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "QToolButton:checked { color: #ffffff; background-color: #880088; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "QToolButton:pressed { color: #ffff00; background-color: #ff00ff; border: none; padding-top: 3px; padding-bottom: 3px; }"
-                           "#tabs { color: #000000; background-color: #000000; border: none; padding-top: 0px; padding-bottom: 0px; }");
+    toolbar->setStyleSheet("QToolButton { color: #000000; font-size: 14px; font-family: Georgia,Times,Times New Roman,serif; font-weight: 400; font-variant: small-caps; padding: 0px; border: none;}"
+                           "QToolButton:hover { color: #ffffff; background-color: #e3f5fc; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:checked { color: #ffffff; background-color: #c8f0ff; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "QToolButton:pressed { color: #000000; background-color: #00c8f8; border: none; padding-top: 3px; padding-bottom: 3px; }"
+                           "#tabs { color: #ffffff; background-color: #ffffff; border: none; padding-top: 0px; padding-bottom: 0px; }");
+
+    toolbar->setIconSize(QSize(64, 64));
+
 
     QLabel* header = new QLabel();
     header->setMinimumSize(142, 142);
@@ -476,16 +479,16 @@ void BitcoinGUI::createToolBars()
     toolbar->addAction(masternodeManagerAction);
 
     if (!fLiteMode){
-        toolbar->addAction(messageAction);
+        //toolbar->addAction(messageAction);
     }
 
-    toolbar->addAction(blockAction);
+    //toolbar->addAction(blockAction);
     //toolbar->addAction(TradingAction);
     netLabel = new QLabel();
 
     QWidget *spacer = makeToolBarSpacer();
     netLabel->setObjectName("netLabel");
-    netLabel->setStyleSheet("#netLabel { color: #00ee00; }");
+    netLabel->setStyleSheet("#netLabel { color: #ffffff; }");
     toolbar->addWidget(spacer);
     toolbar->setOrientation(Qt::Vertical);
     toolbar->setMovable(false);
@@ -493,7 +496,7 @@ void BitcoinGUI::createToolBars()
     addToolBar(Qt::LeftToolBarArea, toolbar);
 
     foreach(QAction *action, toolbar->actions()) {
-        toolbar->widgetForAction(action)->setFixedWidth(142);
+        toolbar->widgetForAction(action)->setFixedWidth(82);
     }
 }
 
@@ -524,7 +527,7 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("Alioth client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("Fdel client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -606,7 +609,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Alioth client"));
+    trayIcon->setToolTip(tr("Fdel client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -677,7 +680,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = fUseBlackTheme ? ":/icons/connect_4" : ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Alioth network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Fdel network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)
@@ -731,7 +734,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
         progressBarLabel->setText(tr(clientModel->isImporting() ? "Importing blocks..." : "Synchronizing with network..."));
         progressBarLabel->setVisible(true);
-        progressBarLabel->setStyleSheet("QLabel { color: #ffffff; border: 3px solid #550055; }");        
+        progressBarLabel->setStyleSheet("QLabel { color: #000000; border: 1px solid #ffffff; }");        
         progressBar->setFormat(tr("%1 behind").arg(timeBehindText));
         progressBar->setMaximum(totalSecs);
         progressBar->setValue(totalSecs - secs);
@@ -763,7 +766,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
 void BitcoinGUI::message(const QString &title, const QString &message, bool modal, unsigned int style)
 {
-    QString strTitle = tr("Alioth") + " - ";
+    QString strTitle = tr("Fdel") + " - ";
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -1068,7 +1071,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Alioth address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Fdel address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -1083,7 +1086,7 @@ void BitcoinGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Alioth address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Fdel address or malformed URI parameters."));
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)

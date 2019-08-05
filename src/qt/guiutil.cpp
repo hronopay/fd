@@ -108,7 +108,7 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
     // NovaCoin: check prefix
-    if(uri.scheme() != QString("Alioth"))
+    if(uri.scheme() != QString("Fdel"))
         return false;
 
     SendCoinsRecipient rv;
@@ -158,13 +158,13 @@ bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 
 bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 {
-    // Convert Alioth:// to Alioth:
+    // Convert Fdel:// to Fdel:
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("Alioth://", Qt::CaseInsensitive))
+    if(uri.startsWith("Fdel://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 11, "Alioth:");
+        uri.replace(0, 11, "Fdel:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -492,12 +492,12 @@ TableViewLastColumnResizingFixer::TableViewLastColumnResizingFixer(QTableView* t
 #ifdef WIN32
 boost::filesystem::path static StartupShortcutPath()
 {
-    return GetSpecialFolderPath(CSIDL_STARTUP) / "Alioth.lnk";
+    return GetSpecialFolderPath(CSIDL_STARTUP) / "Fdel.lnk";
 }
 
 bool GetStartOnSystemStartup()
 {
-    // check for Alioth.lnk
+    // check for Fdel.lnk
     return boost::filesystem::exists(StartupShortcutPath());
 }
 
@@ -574,7 +574,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "Alioth.desktop";
+    return GetAutostartDir() / "Fdel.desktop";
 }
 
 bool GetStartOnSystemStartup()
@@ -612,10 +612,10 @@ bool SetStartOnSystemStartup(bool fAutoStart)
         boost::filesystem::ofstream optionFile(GetAutostartFilePath(), std::ios_base::out|std::ios_base::trunc);
         if (!optionFile.good())
             return false;
-        // Write a Alioth.desktop file to the autostart directory:
+        // Write a Fdel.desktop file to the autostart directory:
         optionFile << "[Desktop Entry]\n";
         optionFile << "Type=Application\n";
-        optionFile << "Name=Alioth\n";
+        optionFile << "Name=Fdel\n";
         optionFile << "Exec=" << pszExePath << " -min\n";
         optionFile << "Terminal=false\n";
         optionFile << "Hidden=false\n";
@@ -634,7 +634,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl);
 LSSharedFileListItemRef findStartupItemInList(LSSharedFileListRef list, CFURLRef findUrl)
 {
-    // loop through the list of startup items and try to find the Alioth app
+    // loop through the list of startup items and try to find the Fdel app
     CFArrayRef listSnapshot = LSSharedFileListCopySnapshot(list, NULL);
     for(int i = 0; i < CFArrayGetCount(listSnapshot); i++) {
         LSSharedFileListItemRef item = (LSSharedFileListItemRef)CFArrayGetValueAtIndex(listSnapshot, i);
@@ -668,7 +668,7 @@ bool SetStartOnSystemStartup(bool fAutoStart)
     LSSharedFileListItemRef foundItem = findStartupItemInList(loginItems, bitcoinAppUrl);
 
     if(fAutoStart && !foundItem) {
-        // add Alioth app to startup item list
+        // add Fdel app to startup item list
         LSSharedFileListInsertItemURL(loginItems, kLSSharedFileListItemBeforeFirst, NULL, NULL, bitcoinAppUrl, NULL, NULL);
     }
     else if(!fAutoStart && foundItem) {
@@ -687,10 +687,10 @@ bool SetStartOnSystemStartup(bool fAutoStart) { return false; }
 HelpMessageBox::HelpMessageBox(QWidget *parent) :
     QMessageBox(parent)
 {
-    header = tr("Alioth-Qt") + " " + tr("version") + " " +
+    header = tr("Fdel-Qt") + " " + tr("version") + " " +
         QString::fromStdString(FormatFullVersion()) + "\n\n" +
         tr("Usage:") + "\n" +
-        "  Alioth-qt [" + tr("command-line options") + "]                     " + "\n";
+        "  Fdel-qt [" + tr("command-line options") + "]                     " + "\n";
 
     coreOptions = QString::fromStdString(HelpMessage());
 
@@ -699,7 +699,7 @@ HelpMessageBox::HelpMessageBox(QWidget *parent) :
         "  -min                   " + tr("Start minimized") + "\n" +
         "  -splash                " + tr("Show splash screen on startup (default: 1)") + "\n";
 
-    setWindowTitle(tr("Alioth-Qt"));
+    setWindowTitle(tr("Fdel-Qt"));
     setTextFormat(Qt::PlainText);
     // setMinimumWidth is ignored for QMessageBox so put in non-breaking spaces to make it wider.
     setText(header + QString(QChar(0x2003)).repeated(50));
@@ -726,34 +726,34 @@ void HelpMessageBox::showOrPrint()
 
 void SetBlackThemeQSS(QApplication& app)
 {
-    app.setStyleSheet("QWidget        { background: rgb(0,0,0); }"
+    app.setStyleSheet("QWidget        { background: rgb(255,255,255); }"
                       "QFrame         { border: none; }"
-                      "QComboBox      { color: rgb(255,255,255); }"
-                      "QComboBox QAbstractItemView::item { color: rgb(255,255,255); }"
-                      "QPushButton    { background: rgb(85,0,85); color: rgb(221,221,221); }"
-                      "QDoubleSpinBox { background: rgb(255,200,255); color: rgb(2,2,2); border-color: rgb(194,194,194); }"
-                      "QLineEdit      { background: rgb(255,200,255); color: rgb(0,0,0); border-color: rgb(194,194,194); }"
-                      "QTextEdit      { background: rgb(255,200,255); color: rgb(0,0,0); }"
-                      "QPlainTextEdit { background: rgb(255,200,255); color: rgb(0,0,0); }"
-                      "QMenuBar       { background: rgb(103,0,103); color: rgb(222,222,222); }"
-                      "QMenu          { background: rgb(58,0,58); color: rgb(222,222,222); }"
-                      "QMenu::item:selected { background-color: rgb(140,0,140); }"
-                      "QLabel         { color: rgb(255,255,255); }"
-                      "QScrollBar     { color: rgb(255,255,255); }"
-                      "QCheckBox      { color: rgb(120,127,139); }"
-                      "QRadioButton   { color: rgb(255,255,255); }"
-                      "QTabBar::tab   { color: rgb(255,255,255); border: 1px solid rgb(78,79,83); border-bottom: none; padding: 5px; }"
-                      "QTabBar::tab:selected  { background: rgb(103,0,103); }"
-                      "QTabBar::tab:!selected { background: rgb(24,10,30); margin-top: 2px; }"
-                      "QTabWidget::pane { border: 1px solid rgb(78,30,83); }"
-                      "QToolButton    { background: rgb(55, 58, 63); color: rgb(116,122,134); border: none; border-left-color: rgb(55, 58, 63); border-left-style: solid; border-left-width: 6px; margin-top: 8px; margin-bottom: 8px; }"
-                      "QToolButton:checked { color: rgb(255,255,255); border: none; border-left-color: rgb(215,173,94); border-left-style: solid; border-left-width: 6px; }"
-                      "QProgressBar   { color: rgb(255,255,255); border-color: rgb(100,0,100); border-width: 3px; border-style: solid; }"
-                      "QProgressBar::chunk { background: rgb(0,100,0); }"
-                      "QTreeView::item { background: rgb(0,33,0); color: rgb(212,199,213); }"
-                      "QTreeView::item:selected { background-color: rgb(148,40,198); }"
-                      "QTableView     { gridline-color: rgb(33,0,33); }"
-                      "QHeaderView::section { background: rgb(39,24,39); color: rgb(255,255,255); }"
+                      "QComboBox      { color: rgb(0,0,0); }"
+                      "QComboBox QAbstractItemView::item { color: rgb(0,0,0); }"
+                      "QPushButton    { background: rgb(85,85,85); color: rgb(255,255,255); }"
+                      "QDoubleSpinBox { background: rgb(255,255,255); color: rgb(2,2,2); border-color: rgb(194,194,194); }"
+                      "QLineEdit      { background: rgb(255,255,255); color: rgb(0,0,0); border-color: rgb(194,194,194); }"
+                      "QTextEdit      { background: rgb(255,255,255); color: rgb(0,0,0); }"
+                      "QPlainTextEdit { background: rgb(255,255,255); color: rgb(0,0,0); }"
+                      "QMenuBar       { background: rgb(255,255,255); color: rgb(0,0,0); }"
+                      "QMenu          { background: rgb(255,255,255); color: rgb(0,0,0); }"
+                      "QMenu::item:selected { background-color: rgb(200,200,200); }"
+                      "QLabel         { color: rgb(0,0,0); }"
+                      "QScrollBar     { color: rgb(0,0,0); }"
+                      "QCheckBox      { color: rgb(120,120,120); }"
+                      "QRadioButton   { color: rgb(0,0,0); }"
+                      "QTabBar::tab   { color: rgb(0,0,0); border: 1px solid rgb(77,77,77); border-bottom: none; padding: 5px; }"
+                      "QTabBar::tab:selected  { background: rgb(250,250,250); }"
+                      "QTabBar::tab:!selected { background: rgb(220,220,220); margin-top: 2px; }"
+                      "QTabWidget::pane { border: 1px solid rgb(77,77,77); }"
+                      "QToolButton    { background: rgb(255, 255, 255); color: rgb(0,0,0); border: none; border-left-color: rgb(0, 0, 0); border-left-style: solid; border-left-width: 6px; margin-top: 8px; margin-bottom: 8px; }"
+                      "QToolButton:checked { color: rgb(230,245,255); border: none; border-left-color: rgb(0,204,255); border-left-style: solid; border-left-width: 6px; }"
+                      "QProgressBar   { color: rgb(0,0,0); border-color: rgb(0,0,0); border-width: 1px; border-style: solid; }"
+                      "QProgressBar::chunk { background: rgb(200,240,255); }"
+                      "QTreeView::item { background: rgb(255,255,255); color: rgb(0,0,0); }"
+                      "QTreeView::item:selected { background-color: rgb(0,204,255); }"
+                      "QTableView     { gridline-color: rgb(33,33,33); }"
+                      "QHeaderView::section { background: rgb(0,204,255); color: rgb(255,255,255); }"
                       "QToolBar       { background: rgb(255,255,255); border: none; }");
 
 /*
