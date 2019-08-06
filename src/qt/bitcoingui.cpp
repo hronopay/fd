@@ -403,7 +403,7 @@ void BitcoinGUI::createMenuBar()
     appMenuBar = menuBar();
 #endif
 
-    appMenuBar->setStyleSheet("QMenuBar::item {font-family: Arial; font-size: 13pt; color: #404040; border: 1px solid #00c8f8; padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(121,218,255);}");
+    appMenuBar->setStyleSheet("QMenuBar::item {font-family: Arial; font-size: 13pt; color: #404040; border: 1px solid #00c8f8; padding: 2px 4px 2px 4px; background-color: rgb(121,218,255);}");
 
     // Configure the menus
     QMenu *file = appMenuBar->addMenu(tr("&File"));
@@ -414,7 +414,7 @@ void BitcoinGUI::createMenuBar()
     file->addSeparator();
     file->addAction(quitAction);
 
-    file->setStyleSheet("font-family: Arial; font-size: 11pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(255,255,255);");
+    file->setStyleSheet("font-family: Arial; font-size: 11pt; color: #606060; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(255,255,255);");
 
     QMenu *settings = appMenuBar->addMenu(tr("&Settings"));
     settings->addAction(encryptWalletAction);
@@ -425,7 +425,7 @@ void BitcoinGUI::createMenuBar()
     settings->addAction(optionsAction);
     settings->addAction(showBackupsAction);
 
-    settings->setStyleSheet("font-family: Arial; font-size: 11pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(255,255,255);");
+    settings->setStyleSheet("font-family: Arial; font-size: 11pt; color: #606060; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(255,255,255);");
 
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
     help->addAction(openRPCConsoleAction);
@@ -433,13 +433,7 @@ void BitcoinGUI::createMenuBar()
     help->addAction(aboutAction);
     help->addAction(aboutQtAction);
 
-    help->setStyleSheet("font-family: Arial; font-size: 11pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(255,255,255);");
-
-
-
-
-//    menu->setStyleSheet("QMenu::item {font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid gray; background-color: rgb(234,234,234);}" + "QMenu::item:hover {background-color: rgb(0, 0, 255);}" + "QPushButton {font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid gray;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(234,234,234);}");
-
+    help->setStyleSheet("font-family: Arial; font-size: 11pt; color: #606060; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(255,255,255);");
 
 }
 
