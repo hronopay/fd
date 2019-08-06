@@ -403,7 +403,7 @@ void BitcoinGUI::createMenuBar()
     appMenuBar = menuBar();
 #endif
 
-    appMenuBar->setStyleSheet("QMenuBar::item {font-family: Arial; font-size: 11pt; color: #808080; border: 1px solid #00c8f8; background-color: rgb(200,240,255);}" + "QMenuBar::item:hover {background-color: rgb(0, 0, 255);}");
+    appMenuBar->setStyleSheet("QMenuBar::item {font-family: Arial; font-size: 11pt; color: #808080; border: 1px solid #00c8f8; background-color: rgb(200,240,255);}");
 
     // Configure the menus
     QMenu *file = appMenuBar->addMenu(tr("&File"));
