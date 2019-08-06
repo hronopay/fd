@@ -403,6 +403,8 @@ void BitcoinGUI::createMenuBar()
     appMenuBar = menuBar();
 #endif
 
+    appMenuBar->setStyleSheet("font-family: Arial; font-size: 11pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(200,240,255);");
+
     // Configure the menus
     QMenu *file = appMenuBar->addMenu(tr("&File"));
     file->addAction(backupWalletAction);
@@ -412,7 +414,7 @@ void BitcoinGUI::createMenuBar()
     file->addSeparator();
     file->addAction(quitAction);
 
-    file->setStyleSheet("font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(121,218,255);");
+    file->setStyleSheet("font-family: Arial; font-size: 12pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(200,240,255);");
 
     QMenu *settings = appMenuBar->addMenu(tr("&Settings"));
     settings->addAction(encryptWalletAction);
@@ -423,7 +425,7 @@ void BitcoinGUI::createMenuBar()
     settings->addAction(optionsAction);
     settings->addAction(showBackupsAction);
 
-    settings->setStyleSheet("font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(121,218,255);");
+    settings->setStyleSheet("font-family: Arial; font-size: 12pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(200,240,255);");
 
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
     help->addAction(openRPCConsoleAction);
@@ -431,7 +433,7 @@ void BitcoinGUI::createMenuBar()
     help->addAction(aboutAction);
     help->addAction(aboutQtAction);
 
-    help->setStyleSheet("font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(121,218,255);");
+    help->setStyleSheet("font-family: Arial; font-size: 12pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(200,240,255);");
 
 
 
