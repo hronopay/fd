@@ -478,10 +478,10 @@ void BitcoinGUI::createToolBars()
 
 
     QLabel* header = new QLabel();
-    header->setMinimumSize(65, 65);
+    header->setMinimumSize(64, 64);
     header->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     header->setPixmap(QPixmap(":/images/header"));
-    header->setMaximumSize(65,65);
+    header->setMaximumSize(80,80);
     header->setScaledContents(true);
     toolbar->addWidget(header);
 
