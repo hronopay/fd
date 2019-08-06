@@ -753,7 +753,7 @@ void SetBlackThemeQSS(QApplication& app)
                       "QTreeView::item { background: rgb(200,240,255); color: rgb(0,0,0); }"
                       "QTreeView::item:selected { background-color: rgb(0,204,255); }"
                       "QTableView     { gridline-color: rgb(0,204,255); }"
-                      "QHeaderView::section { background: rgb(0,204,255); color: rgb(255,255,255); }"
+                      "QHeaderView::section { background: rgb(200,240,255); color: rgb(255,255,255); }"
                       "QToolBar       { background: rgb(255,255,255); border: none; }");
 
 /*
