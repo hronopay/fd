@@ -744,7 +744,7 @@ void SetBlackThemeQSS(QApplication& app)
                       "QRadioButton   { color: rgb(0,0,0); }"
                       "QTabBar::tab   { color: rgb(0,0,0); border: 1px solid rgb(0,204,255); border-bottom: none; padding: 5px; }"
                       "QTabBar::tab:selected  { background: rgb(200,240,255); }"
-                      "QTabBar::tab:!selected { background: rgb(0,204,255); margin-top: 2px; }"
+                      "QTabBar::tab:!selected { background: rgb(121,218,255); margin-top: 2px; }"
                       "QTabWidget::pane { border: 1px solid rgb(0,204,255); }"
                       "QToolButton    { background: rgb(255, 255, 255); color: rgb(0,0,0); border: none; border-left-color: rgb(0, 0, 0); border-left-style: solid; border-left-width: 6px; margin-top: 8px; margin-bottom: 8px; }"
                       "QToolButton:checked { color: rgb(230,245,255); border: none; border-left-color: rgb(0,204,255); border-left-style: solid; border-left-width: 6px; }"
