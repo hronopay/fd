@@ -466,7 +466,7 @@ void BitcoinGUI::createToolBars()
     header->setMinimumSize(64, 64);
     header->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     header->setPixmap(QPixmap(":/images/header"));
-    header->setMaximumSize(64,64);
+    header->setMaximumSize(65,65);
     header->setScaledContents(true);
     toolbar->addWidget(header);
 
