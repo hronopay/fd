@@ -412,6 +412,8 @@ void BitcoinGUI::createMenuBar()
     file->addSeparator();
     file->addAction(quitAction);
 
+    file->setStyleSheet("font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(121,218,255);");
+
     QMenu *settings = appMenuBar->addMenu(tr("&Settings"));
     settings->addAction(encryptWalletAction);
     settings->addAction(changePassphraseAction);
@@ -421,11 +423,22 @@ void BitcoinGUI::createMenuBar()
     settings->addAction(optionsAction);
     settings->addAction(showBackupsAction);
 
+    settings->setStyleSheet("font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(121,218,255);");
+
     QMenu *help = appMenuBar->addMenu(tr("&Help"));
     help->addAction(openRPCConsoleAction);
     help->addSeparator();
     help->addAction(aboutAction);
     help->addAction(aboutQtAction);
+
+    help->setStyleSheet("font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid #00c8f8;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(121,218,255);");
+
+
+
+
+//    menu->setStyleSheet("QMenu::item {font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid gray; background-color: rgb(234,234,234);}" + "QMenu::item:hover {background-color: rgb(0, 0, 255);}" + "QPushButton {font-family: Arial; font-size: 13pt; color: #808080; border: 1px solid gray;padding: 1px 18px 1px 3px;min-width: 6em; background-color: rgb(234,234,234);}");
+
+
 }
 
 static QWidget* makeToolBarSpacer()
