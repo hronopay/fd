@@ -1005,13 +1005,6 @@
               </property>
              </widget>
             </item>
-            <item row="4" column="1">
-             <widget class="QLabel" name="labelAmountRounds">
-              <property name="text">
-               <string>0 FDEL / 0 Rounds</string>
-              </property>
-             </widget>
-            </item>
             <item row="5" column="0">
              <widget class="QLabel" name="label_9">
               <property name="text">

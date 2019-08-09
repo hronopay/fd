@@ -348,8 +348,8 @@ void OverviewPage::updateDarksendProgress()
         // when balance is zero just show info from settings
         strAmountAndRounds = strAnonymizeFdelAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
 
-        ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
-        ui->labelAmountRounds->setText(strAmountAndRounds);
+//        ui->labelAmountRounds->setToolTip(tr("No inputs detected"));
+//        ui->labelAmountRounds->setText(strAmountAndRounds);
         return;
     }
 
@@ -379,21 +379,20 @@ void OverviewPage::updateDarksendProgress()
     if(nMaxToAnonymize == 0) return;
 
     if(nMaxToAnonymize >= nAnonymizeFdelAmount * COIN) {
-        ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1")
-                                          .arg(strAnonymizeFdelAmount));
+//        ui->labelAmountRounds->setToolTip(tr("Found enough compatible inputs to anonymize %1").arg(strAnonymizeFdelAmount));
         strAmountAndRounds = strAnonymizeFdelAmount + " / " + tr("%n Rounds", "", nDarksendRounds);
     } else {
         QString strMaxToAnonymize = BitcoinUnits::formatHtmlWithUnit(nDisplayUnit, nMaxToAnonymize, false, BitcoinUnits::separatorAlways);
-        ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
-                                             "will anonymize <span style='color:red;'>%2</span> instead")
-                                          .arg(strAnonymizeFdelAmount)
-                                          .arg(strMaxToAnonymize));
+//        ui->labelAmountRounds->setToolTip(tr("Not enough compatible inputs to anonymize <span style='color:red;'>%1</span>,<br>"
+//                                             "will anonymize <span style='color:red;'>%2</span> instead")
+//                                          .arg(strAnonymizeFdelAmount)
+//                                          .arg(strMaxToAnonymize));
         strMaxToAnonymize = strMaxToAnonymize.remove(strMaxToAnonymize.indexOf("."), BitcoinUnits::decimals(nDisplayUnit) + 1);
         strAmountAndRounds = "<span style='color:red;'>" +
                 QString(BitcoinUnits::factor(nDisplayUnit) == 1 ? "" : "~") + strMaxToAnonymize +
                 " / " + tr("%n Rounds", "", nDarksendRounds) + "</span>";
     }
-    ui->labelAmountRounds->setText(strAmountAndRounds);
+//    ui->labelAmountRounds->setText(strAmountAndRounds);
 
     // calculate parts of the progress, each of them shouldn't be higher than 1
     // progress of denominating
