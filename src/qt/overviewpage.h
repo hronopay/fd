@@ -62,7 +62,7 @@ private:
 private slots:
     void toggleDarksend();
 //    void darksendAuto();
-    void darksendReset();
+//    void darksendReset();
     void updateDisplayUnit();
     void handleTransactionClicked(const QModelIndex &index);
     void updateAlerts(const QString &warnings);

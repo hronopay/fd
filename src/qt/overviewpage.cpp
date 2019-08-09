@@ -147,7 +147,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
         if(fMasterNode){
             ui->toggleDarksend->setText("(" + tr("Disabled") + ")");
 //            ui->darksendAuto->setText("(" + tr("Disabled") + ")");
-            ui->darksendReset->setText("(" + tr("Disabled") + ")");
+//            ui->darksendReset->setText("(" + tr("Disabled") + ")");
             ui->frameDarksend->setEnabled(false);
         } else {
             if(!fEnableDarksend){
@@ -290,7 +290,7 @@ void OverviewPage::setWalletModel(WalletModel *model)
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
 
 //        connect(ui->darksendAuto, SIGNAL(clicked()), this, SLOT(darksendAuto()));
-        connect(ui->darksendReset, SIGNAL(clicked()), this, SLOT(darksendReset()));
+//        connect(ui->darksendReset, SIGNAL(clicked()), this, SLOT(darksendReset()));
         connect(ui->toggleDarksend, SIGNAL(clicked()), this, SLOT(toggleDarksend()));
         updateWatchOnlyLabels(model->haveWatchOnly());
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
@@ -501,7 +501,6 @@ void OverviewPage::darkSendStatus()
 void OverviewPage::darksendAuto(){
     darkSendPool.DoAutomaticDenominating();
 }
-*/
 
 void OverviewPage::darksendReset(){
     darkSendPool.Reset();
@@ -511,6 +510,8 @@ void OverviewPage::darksendReset(){
         tr("Darksend was successfully reset."),
         QMessageBox::Ok, QMessageBox::Ok);
 }
+*/
+
 
 void OverviewPage::toggleDarksend(){
 
