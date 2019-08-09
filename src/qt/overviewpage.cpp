@@ -156,7 +156,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
 //                ui->toggleDarksend->setText(tr("Stop Darksend Mixing"));
             }
             timer = new QTimer(this);
-            connect(timer, SIGNAL(timeout()), this, SLOT(darkSendStatus()));
+//            connect(timer, SIGNAL(timeout()), this, SLOT(darkSendStatus()));
             if(!GetBoolArg("-reindexaddr", false))
                 timer->start(60000);
         }
@@ -184,7 +184,7 @@ void OverviewPage::handleTransactionClicked(const QModelIndex &index)
 
 OverviewPage::~OverviewPage()
 {
-    if(!fLiteMode && !fMasterNode) disconnect(timer, SIGNAL(timeout()), this, SLOT(darkSendStatus()));
+//    if(!fLiteMode && !fMasterNode) disconnect(timer, SIGNAL(timeout()), this, SLOT(darkSendStatus()));
     delete ui;
 }
 
@@ -440,6 +440,9 @@ void OverviewPage::updateDarksendProgress()
 }
 
 
+
+/*
+
 void OverviewPage::darkSendStatus()
 {
     static int64_t nLastDSProgressBlockTime = 0;
@@ -496,7 +499,7 @@ void OverviewPage::darkSendStatus()
     // Get DarkSend Denomination Status
 }
 
-/*
+
 void OverviewPage::darksendAuto(){
     darkSendPool.DoAutomaticDenominating();
 }

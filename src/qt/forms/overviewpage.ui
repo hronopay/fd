@@ -1038,25 +1038,6 @@
             </property>
            </widget>
           </item>
-          <item>
-           <widget class="QLabel" name="darksendStatus">
-            <property name="minimumSize">
-             <size>
-              <width>288</width>
-              <height>43</height>
-             </size>
-            </property>
-            <property name="text">
-             <string>(Last Message)</string>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
-            </property>
-            <property name="wordWrap">
-             <bool>true</bool>
-            </property>
-           </widget>
-          </item>
          </layout>
         </widget>
        </item>
