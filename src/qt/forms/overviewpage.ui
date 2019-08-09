@@ -954,54 +954,6 @@
            </widget>
           </item>
           <item>
-           <layout class="QFormLayout" name="formLayout">
-            <property name="fieldGrowthPolicy">
-             <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
-            </property>
-            <property name="horizontalSpacing">
-             <number>11</number>
-            </property>
-            <property name="verticalSpacing">
-             <number>12</number>
-            </property>
-            <item row="0" column="0">
-             <widget class="QLabel" name="label_6">
-              <property name="text">
-               <string>Status:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="1" column="0">
-             <widget class="QLabel" name="label_7">
-              <property name="text">
-               <string>Completion:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="3" column="0">
-             <widget class="QLabel" name="labelAnonymizedText">
-              <property name="text">
-               <string>Darksend Balance:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="4" column="0">
-             <widget class="QLabel" name="label_8">
-              <property name="text">
-               <string>Amount and Rounds:</string>
-              </property>
-             </widget>
-            </item>
-            <item row="5" column="0">
-             <widget class="QLabel" name="label_9">
-              <property name="text">
-               <string>Submitted Denom:</string>
-              </property>
-             </widget>
-            </item>
-           </layout>
-          </item>
-          <item>
            <widget class="Line" name="lineLastMessage">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
