@@ -60,7 +60,7 @@ private:
     TransactionFilterProxy *filter;
 
 private slots:
-    void toggleDarksend();
+//    void toggleDarksend();
 //    void darksendAuto();
 //    void darksendReset();
     void updateDisplayUnit();

@@ -145,15 +145,15 @@ OverviewPage::OverviewPage(QWidget *parent) :
         ui->frameDarksend->setVisible(false);
     } else {
         if(fMasterNode){
-            ui->toggleDarksend->setText("(" + tr("Disabled") + ")");
+//            ui->toggleDarksend->setText("(" + tr("Disabled") + ")");
 //            ui->darksendAuto->setText("(" + tr("Disabled") + ")");
 //            ui->darksendReset->setText("(" + tr("Disabled") + ")");
             ui->frameDarksend->setEnabled(false);
         } else {
             if(!fEnableDarksend){
-                ui->toggleDarksend->setText(tr("Start Darksend Mixing"));
+//                ui->toggleDarksend->setText(tr("Start Darksend Mixing"));
             } else {
-                ui->toggleDarksend->setText(tr("Stop Darksend Mixing"));
+//                ui->toggleDarksend->setText(tr("Stop Darksend Mixing"));
             }
             timer = new QTimer(this);
             connect(timer, SIGNAL(timeout()), this, SLOT(darkSendStatus()));
@@ -291,7 +291,7 @@ void OverviewPage::setWalletModel(WalletModel *model)
 
 //        connect(ui->darksendAuto, SIGNAL(clicked()), this, SLOT(darksendAuto()));
 //        connect(ui->darksendReset, SIGNAL(clicked()), this, SLOT(darksendReset()));
-        connect(ui->toggleDarksend, SIGNAL(clicked()), this, SLOT(toggleDarksend()));
+//        connect(ui->toggleDarksend, SIGNAL(clicked()), this, SLOT(toggleDarksend()));
         updateWatchOnlyLabels(model->haveWatchOnly());
         connect(model, SIGNAL(notifyWatchonlyChanged(bool)), this, SLOT(updateWatchOnlyLabels(bool)));
     }
@@ -459,7 +459,7 @@ void OverviewPage::darkSendStatus()
 
             ui->darksendEnabled->setText(tr("Disabled"));
             ui->darksendStatus->setText("");
-            ui->toggleDarksend->setText(tr("Start Darksend Mixing"));
+//            ui->toggleDarksend->setText(tr("Start Darksend Mixing"));
         }
 
         return;
@@ -510,7 +510,6 @@ void OverviewPage::darksendReset(){
         tr("Darksend was successfully reset."),
         QMessageBox::Ok, QMessageBox::Ok);
 }
-*/
 
 
 void OverviewPage::toggleDarksend(){
@@ -562,7 +561,7 @@ void OverviewPage::toggleDarksend(){
     } else {
         ui->toggleDarksend->setText(tr("Stop Darksend Mixing"));
 
-        /* show darksend configuration if client has defaults set */
+        // show darksend configuration if client has defaults set 
 
         if(nAnonymizeFdelAmount == 0){
             DarksendConfig dlg(this);
@@ -572,3 +571,5 @@ void OverviewPage::toggleDarksend(){
 
     }
 }
+*/
+
