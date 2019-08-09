@@ -146,7 +146,7 @@ OverviewPage::OverviewPage(QWidget *parent) :
     } else {
         if(fMasterNode){
             ui->toggleDarksend->setText("(" + tr("Disabled") + ")");
-            ui->darksendAuto->setText("(" + tr("Disabled") + ")");
+//            ui->darksendAuto->setText("(" + tr("Disabled") + ")");
             ui->darksendReset->setText("(" + tr("Disabled") + ")");
             ui->frameDarksend->setEnabled(false);
         } else {
@@ -289,7 +289,7 @@ void OverviewPage::setWalletModel(WalletModel *model)
 
         connect(model->getOptionsModel(), SIGNAL(displayUnitChanged(int)), this, SLOT(updateDisplayUnit()));
 
-        connect(ui->darksendAuto, SIGNAL(clicked()), this, SLOT(darksendAuto()));
+//        connect(ui->darksendAuto, SIGNAL(clicked()), this, SLOT(darksendAuto()));
         connect(ui->darksendReset, SIGNAL(clicked()), this, SLOT(darksendReset()));
         connect(ui->toggleDarksend, SIGNAL(clicked()), this, SLOT(toggleDarksend()));
         updateWatchOnlyLabels(model->haveWatchOnly());
@@ -497,9 +497,11 @@ void OverviewPage::darkSendStatus()
     // Get DarkSend Denomination Status
 }
 
+/*
 void OverviewPage::darksendAuto(){
     darkSendPool.DoAutomaticDenominating();
 }
+*/
 
 void OverviewPage::darksendReset(){
     darkSendPool.Reset();
