@@ -221,7 +221,7 @@ void OverviewPage::setBalance(const CAmount& balance, const CAmount& stake, cons
     ui->labelImmatureText->setVisible(showImmature || showWatchOnlyImmature);
     ui->labelWatchImmature->setVisible(showWatchOnlyImmature); // show watch-only immature balance
 
-    updateDarksendProgress();
+//    updateDarksendProgress();
 
     static int cachedTxLocks = 0;
 
@@ -330,6 +330,8 @@ void OverviewPage::showOutOfSyncWarning(bool fShow)
     ui->labelTransactionsStatus->setVisible(fShow);
 }
 
+
+/*
 
 
 void OverviewPage::updateDarksendProgress()
@@ -441,7 +443,6 @@ void OverviewPage::updateDarksendProgress()
 
 
 
-/*
 
 void OverviewPage::darkSendStatus()
 {
