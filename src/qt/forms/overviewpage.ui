@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>960</width>
-    <height>614</height>
+    <height>642</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -470,7 +470,9 @@
           <enum>Qt::LeftToRight</enum>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-image: url(:/images/splash);</string>
+          <string notr="true">background-image: url(:/images/res/images/splash-1.png);
+background-repeat: no-repeat;
+</string>
          </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
@@ -478,18 +480,19 @@
          <property name="frameShadow">
           <enum>QFrame::Raised</enum>
          </property>
-         <layout class="QVBoxLayout" name="verticalLayout_5">
-          <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_5"/>
-          </item>
-          <item>
-           <widget class="Line" name="lineLastMessage">
-            <property name="orientation">
-             <enum>Qt::Horizontal</enum>
-            </property>
-           </widget>
-          </item>
-         </layout>
+         <widget class="Line" name="lineLastMessage">
+          <property name="geometry">
+           <rect>
+            <x>10</x>
+            <y>337</y>
+            <width>445</width>
+            <height>16</height>
+           </rect>
+          </property>
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
         </widget>
        </item>
        <item>
