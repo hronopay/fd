@@ -23,7 +23,7 @@
    <item>
     <widget class="QLabel" name="labelAlerts">
      <property name="visible">
-      <bool>false</bool>
+      <bool>true</bool>
      </property>
      <property name="styleSheet">
       <string notr="true">background-color: qlineargradient(x1: 0, y1: 0, x2: 1, y2: 0, stop:0 #F0D0A0, stop:1 #F8D488); color:#000000;</string>
@@ -469,6 +469,9 @@
          <property name="layoutDirection">
           <enum>Qt::LeftToRight</enum>
          </property>
+         <property name="styleSheet">
+          <string notr="true">background-image: url(:/images/splash);</string>
+         </property>
          <property name="frameShape">
           <enum>QFrame::StyledPanel</enum>
          </property>
@@ -477,21 +480,7 @@
          </property>
          <layout class="QVBoxLayout" name="verticalLayout_5">
           <item>
-           <layout class="QHBoxLayout" name="horizontalLayout_5">
-            <item>
-             <spacer name="horizontalSpacer_4">
-              <property name="orientation">
-               <enum>Qt::Horizontal</enum>
-              </property>
-              <property name="sizeHint" stdset="0">
-               <size>
-                <width>40</width>
-                <height>20</height>
-               </size>
-              </property>
-             </spacer>
-            </item>
-           </layout>
+           <layout class="QHBoxLayout" name="horizontalLayout_5"/>
           </item>
           <item>
            <widget class="Line" name="lineLastMessage">
