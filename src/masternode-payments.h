@@ -74,7 +74,7 @@ private:
 public:
 
     CMasternodePayments() {
-        strMainPubKey = "";
+        strMainPubKey = "042d9aad81889a23c46bb4f15e3b605400d784ffb486c51f32a8e736f9a6276b96c24f2137e7046b4c288be41da0476b37607b21440389dac180b47558343ab91c";
         enabled = false;
     }
 

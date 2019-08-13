@@ -60,9 +60,9 @@ public:
 		pchMessageStart[1] = 0x1a;
 		pchMessageStart[2] = 0x13;
 		pchMessageStart[3] = 0x6c;
-		vAlertPubKey = ParseHex("04d6a86ddb13403708fddb7474212d8c00bbe20389a1ef138a6b91b11b3f78c182ec6c6934ef193893325c5284e9c9bfdd9df41a4475e8d303551801d8bd9334fd");
-		nDefaultPort = 46562;
-		nRPCPort = 46733;
+		vAlertPubKey = ParseHex("042d9aad81889a23c46bb4f15e3b605400d784ffb486c51f32a8e736f9a6276b96c24f2137e7046b4c288be41da0476b37607b21440389dac180b47558343ab91c");
+		nDefaultPort = 41426;
+		nRPCPort = 41427;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
 		// Build the genesis block. Note that the output of the genesis coinbase cannot
@@ -73,19 +73,19 @@ public:
 		//    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
 		//    CTxOut(empty)
 		//  vMerkleTree: 59589791e1
-		const char* pszTimestamp = "start test coin  Sunday 9th of March 2018 02-25-55 AM";
+		const char* pszTimestamp = "start BuySellCoin coin on Sunday 13th of August 2019 19-55-44 AM";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
 		vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
 		std::vector<CTxOut> vout;
 		vout.resize(1);
 		vout[0].SetEmpty();
-		CTransaction txNew(1, 1520590567, vin, vout, 0);
+		CTransaction txNew(1, 1565724242, vin, vout, 0);
 		genesis.vtx.push_back(txNew);
 		genesis.hashPrevBlock = 0;
 		genesis.hashMerkleRoot = genesis.BuildMerkleTree();
 		genesis.nVersion = 1;
-		genesis.nTime = 1520590567;
+		genesis.nTime = 1565724242;
 		genesis.nBits = 0x1e0ffff0;
 		genesis.nNonce = 440309;
 
@@ -99,25 +99,24 @@ public:
 		assert(genesis.hashMerkleRoot == uint256("0xf11d48344d8585e31c00c85e7d3d0b19cb0b0a50751d6542fa4d29f8bc5c46fb"));
 		assert(hashGenesisBlock == uint256("0x0c9eed44c7b5a7e8691397802764db34dda7628c22d34a7aca31a5d7e00c9a4d"));
 
-		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 41);
-		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 100);
-		base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 154);
-		base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1, 50);
+		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 35);
+		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 95);
+		base58Prefixes[SECRET_KEY] = std::vector<unsigned char>(1, 137);
+		base58Prefixes[STEALTH_ADDRESS] = std::vector<unsigned char>(1, 135);
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
 		vSeeds.push_back(CDNSSeedData("0", "80.211.144.89"));
 		vSeeds.push_back(CDNSSeedData("1", "212.237.23.86"));
-		vSeeds.push_back(CDNSSeedData("2", "80.211.181.225"));
-//		vSeeds.push_back(CDNSSeedData("3", ""));
+//		vSeeds.push_back(CDNSSeedData("2", "80.211.10.160"));
 		convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
 		nPoolMaxTransactions = 3;
 		//strSporkKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
 		//strMasternodePaymentsPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
 		strDarksendPoolDummyAddress = "hFoQDUrp63QWqFhjEr3Fmc4ubHRhyzjKUC";
-		nLastPOWBlock = 195000;
-		nPOSStartBlock = 10;
+		nLastPOWBlock = 600000;
+		nPOSStartBlock = 20;
 	}
 
 
@@ -149,15 +148,15 @@ public:
 		pchMessageStart[2] = 0xa6;
 		pchMessageStart[3] = 0x2c;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
-		vAlertPubKey = ParseHex("04d6a86ddb13403708fddb7474212d8c00bbe20389a1ef138a6b91b11b3f78c182ec6c6934ef193893325c5284e9c9bfdd9df41a4475e8d303551801d8bd9334fd");
-		nDefaultPort = 20316;
-		nRPCPort = 20317;
+		vAlertPubKey = ParseHex("042d9aad81889a23c46bb4f15e3b605400d784ffb486c51f32a8e736f9a6276b96c24f2137e7046b4c288be41da0476b37607b21440389dac180b47558343ab91c");
+		nDefaultPort = 31407;
+		nRPCPort = 31408;
 		strDataDir = "testnet";
 
 		// Modify the testnet genesis block so the timestamp is valid for a later start.
 		genesis.nBits = 0x1e0ffff0;
 		genesis.nNonce = 216893;
-		genesis.nTime    = 1520590568;
+		genesis.nTime    = 1565724243;
 
         hashGenesisBlock = genesis.GetHash();
 
