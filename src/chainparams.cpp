@@ -56,10 +56,10 @@ public:
 		// The message start string is designed to be unlikely to occur in normal data.
 		// The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 		// a large 4-byte int at any alignment.
-		pchMessageStart[0] = 0xbd;
-		pchMessageStart[1] = 0x1a;
-		pchMessageStart[2] = 0x13;
-		pchMessageStart[3] = 0x6c;
+		pchMessageStart[0] = 0x9d;
+		pchMessageStart[1] = 0x2a;
+		pchMessageStart[2] = 0x22;
+		pchMessageStart[3] = 0x5b;
 		vAlertPubKey = ParseHex("042d9aad81889a23c46bb4f15e3b605400d784ffb486c51f32a8e736f9a6276b96c24f2137e7046b4c288be41da0476b37607b21440389dac180b47558343ab91c");
 		nDefaultPort = 41426;
 		nRPCPort = 41427;
@@ -67,12 +67,8 @@ public:
 
 		// Build the genesis block. Note that the output of the genesis coinbase cannot
 		// be spent as it did not originally exist in the database.
-		//
-		//CBlock(hash=0000ebc8051bff80f7946f4420efb219e66f66b89fdc1df0ed8a30b428bf0033, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=12630d16a97f24b287c8c2594dda5fb98c9e6c70fc61d44191931ea2aa08dc90, nTime=1393221600, nBits=1e0fffff, nNonce=164482, vtx=1, vchBlockSig=)
-		//  Coinbase(hash=59589791e1, nTime=1393221600, ver=1, vin.size=1, vout.size=1, nLockTime=0)
-		//    CTxIn(COutPoint(0000000000, 4294967295), coinbase 00012a24323020466562203230313420426974636f696e2041544d7320636f6d6520746f20555341)
-		//    CTxOut(empty)
-		//  vMerkleTree: 59589791e1
+		
+		
 		const char* pszTimestamp = "start BuySellCoin coin on Sunday 13th of August 2019 19-55-44 AM";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
@@ -106,15 +102,13 @@ public:
 		base58Prefixes[EXT_PUBLIC_KEY] = list_of(0x04)(0x88)(0xB2)(0x1E).convert_to_container<std::vector<unsigned char> >();
 		base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4).convert_to_container<std::vector<unsigned char> >();
 
-		vSeeds.push_back(CDNSSeedData("0", "80.211.144.89"));
-		vSeeds.push_back(CDNSSeedData("1", "212.237.23.86"));
+		vSeeds.push_back(CDNSSeedData("0", "80.211.187.163"));
+		vSeeds.push_back(CDNSSeedData("1", "80.211.10.160"));
 //		vSeeds.push_back(CDNSSeedData("2", "80.211.10.160"));
 		convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 
 		nPoolMaxTransactions = 3;
-		//strSporkKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
-		//strMasternodePaymentsPubKey = "046f78dcf911fbd61910136f7f0f8d90578f68d0b3ac973b5040fb7afb501b5939f39b108b0569dca71488f5bbf498d92e4d1194f6f941307ffd95f75e76869f0e";
-		strDarksendPoolDummyAddress = "hFoQDUrp63QWqFhjEr3Fmc4ubHRhyzjKUC";
+		strDarksendPoolDummyAddress = "fFoQDUrp63QWqFhjEr3Fmc4ubHRhyzjKUC";
 		nLastPOWBlock = 600000;
 		nPOSStartBlock = 20;
 	}
@@ -143,10 +137,10 @@ public:
 		// The message start string is designed to be unlikely to occur in normal data.
 		// The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 		// a large 4-byte int at any alignment.
-		pchMessageStart[0] = 0x1d;
-		pchMessageStart[1] = 0x7e;
-		pchMessageStart[2] = 0xa6;
-		pchMessageStart[3] = 0x2c;
+		pchMessageStart[0] = 0x1c;
+		pchMessageStart[1] = 0x8e;
+		pchMessageStart[2] = 0xa7;
+		pchMessageStart[3] = 0x1d;
 		bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 		vAlertPubKey = ParseHex("042d9aad81889a23c46bb4f15e3b605400d784ffb486c51f32a8e736f9a6276b96c24f2137e7046b4c288be41da0476b37607b21440389dac180b47558343ab91c");
 		nDefaultPort = 31407;
