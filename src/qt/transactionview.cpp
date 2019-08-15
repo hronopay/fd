@@ -198,10 +198,17 @@ void TransactionView::setModel(WalletModel *model)
 
 
         QPalette Pal;
+        
+        // text of tx table
         Pal.setColor(QPalette::Text, QColor(64,64,64, 255));
+        
+        // bgrd of tx table odd rows
         Pal.setColor(QPalette::Base, Qt::white);
-//        Pal.setColor(QPalette::AlternateBase, Qt::darkGreen);   64,64,64
+
+//        Pal.setColor(QPalette::AlternateBase, Qt::darkGreen); 
+        // bgrd of tx table even rows
         Pal.setColor(QPalette::AlternateBase, QColor(230,245,255, 255));
+
         Pal.setColor(QPalette::Highlight, QColor(8, 8, 0, 255));
         Pal.setColor(QPalette::HighlightedText, QColor(220, 220, 220, 255));
 
