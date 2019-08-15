@@ -69,19 +69,19 @@ public:
 		// be spent as it did not originally exist in the database.
 		
 		
-		const char* pszTimestamp = "start BuySellCoin coin on Sunday 13th of August 2019 19-55-44 AM";
+		const char* pszTimestamp = "start FDEL coin on Thursday, 15 August 2019, 11:03:22";
 		std::vector<CTxIn> vin;
 		vin.resize(1);
 		vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
 		std::vector<CTxOut> vout;
 		vout.resize(1);
 		vout[0].SetEmpty();
-		CTransaction txNew(1, 1565724242, vin, vout, 0);
+		CTransaction txNew(1, 1565867002, vin, vout, 0);
 		genesis.vtx.push_back(txNew);
 		genesis.hashPrevBlock = 0;
 		genesis.hashMerkleRoot = genesis.BuildMerkleTree();
 		genesis.nVersion = 1;
-		genesis.nTime = 1565724242;
+		genesis.nTime = 1565867002;
 		genesis.nBits = 0x1e0ffff0;
 		genesis.nNonce = 440309;
 
@@ -150,7 +150,7 @@ public:
 		// Modify the testnet genesis block so the timestamp is valid for a later start.
 		genesis.nBits = 0x1e0ffff0;
 		genesis.nNonce = 216893;
-		genesis.nTime    = 1565724243;
+		genesis.nTime    = 1565867003;
 
         hashGenesisBlock = genesis.GetHash();
 
