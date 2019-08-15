@@ -92,8 +92,8 @@ public:
         LogPrintf("Display nonce so we can input it below %s\n", genesis.nNonce);
         LogPrintf("Display time so we can input it below %s\n", genesis.nTime);
 
-		assert(genesis.hashMerkleRoot == uint256("0xcca1440d8e9d99a21438511cec9930f335d3b1e53f13e64f268204ad6d002cf3"));
-		assert(hashGenesisBlock == uint256("0x1ac86b2e70b7b86379e22b01bd871cfd3f059a470ce4a346480401d8fbad36d2"));
+		assert(genesis.hashMerkleRoot == uint256("0x78249ccf3037ec8b3c3b591940a41a4d0d2d06e24262b365cf8e02489f4f0834"));
+		assert(hashGenesisBlock == uint256("0xf613a145a9b13327132c5b92b02b9d783a529eace9d8bb13688300cc159f3510"));
 
 		base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 35);
 		base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1, 95);
@@ -156,7 +156,7 @@ public:
 
         LogPrintf("Display testNet genesis hash so we can input it below %s\n", hashGenesisBlock.ToString().c_str());
 
-		assert(hashGenesisBlock == uint256("0x0efae91d5e242144c1f2007c79d66a96844b374aeaf1024f940955e0e6343bf9"));
+		assert(hashGenesisBlock == uint256("0x1edc4fc54a0e7ce8ffac24f44d57b9509f74a8c7d810d4bb033c20e6006e66d5"));
 
 		vFixedSeeds.clear();
 		vSeeds.clear();
