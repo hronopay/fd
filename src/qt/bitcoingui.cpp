@@ -471,13 +471,14 @@ void BitcoinGUI::createToolBars()
     toolbar->setIconSize(QSize(64, 64));
 
 
+// small logo left top corner
     QLabel* header = new QLabel();
     header->setMinimumSize(64, 64);
     header->setSizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
     header->setPixmap(QPixmap(":/images/header"));
     header->setMaximumSize(80,80);
     header->setScaledContents(true);
-    toolbar->addWidget(header);
+    //toolbar->addWidget(header);
 
     //QMenu *toolbarMenu = new QMenu();
     toolbar->addAction(overviewAction);
