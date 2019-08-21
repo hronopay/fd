@@ -82,9 +82,9 @@ static const unsigned char REJECT_INVALID = 0x10;
 
 //  inline int64_t GetMNCollateral(int nHeight) { return 4000; }
 inline int64_t GetMNCollateral(int nHeight) { 
-    if(nHeight < 210000) return 4000; 
-    else if(nHeight < 400000) return 80000; 
-    else return 8000000;
+    if(nHeight < 30000) return 1000; 
+    //else if(nHeight < 40000) return 5000; 
+    else return 10000;
 }
 
 extern CScript COINBASE_FLAGS;
