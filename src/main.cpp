@@ -1360,30 +1360,18 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
     int64_t nSubsidy = 0 * COIN;
 
     if (nHeight == 1) {
-        nSubsidy = 2 * COIN; // premine
+        nSubsidy = 1 * COIN; // premine
     }
     else if (nHeight >= 2 && nHeight < 12) {
-        nSubsidy = 110000 * COIN; // premine
+        nSubsidy = 4000 * COIN; // premine
     }
-    else if (nHeight >= 12 && nHeight < 210000) {
-        nSubsidy = 1 * COIN; 
+    else if (nHeight >= 12 && nHeight < 29000) {
+        nSubsidy = 0.001 * COIN; 
     }
-    else if (nHeight >= 210000 && nHeight < 212000) {
-        nSubsidy = 2 * COIN; 
+    else if (nHeight >= 29000 && nHeight < 500000) {
+        nSubsidy = 0.0015 * COIN; 
     }
-    else if (nHeight >= 212000 && nHeight < 214000) {
-        nSubsidy = 4 * COIN; 
-    }
-    else if (nHeight >= 214000 && nHeight < 246000) {
-        nSubsidy = 8 * COIN; 
-    }
-    else if (nHeight >= 246000 && nHeight < 336000) {
-        nSubsidy = 4 * COIN; 
-    }
-    else if (nHeight >= 336000 && nHeight < 502000) {
-        nSubsidy = 2 * COIN; 
-    }
-    else if (nHeight >= 502000)     nSubsidy = 1 * COIN;
+    else if (nHeight >= 500000)     nSubsidy = 0 * COIN;
 
     // add fees.
     return nSubsidy + nFees;
@@ -1395,7 +1383,7 @@ int64_t GetProofOfStakeReward(const CBlockIndex* pindexPrev, int64_t nCoinAge, i
     int64_t nSubsidy = 0;
     
 
-    if(nBestHeight >=   15       &&  nBestHeight <  1000    ){ nSubsidy =   1    * COIN; }
+    if(nBestHeight >=   20       &&  nBestHeight <  1000    ){ nSubsidy =   1    * COIN; }
 else if(nBestHeight >=  1001     &&  nBestHeight <  5000    ){ nSubsidy =   3    * COIN; }
 else if(nBestHeight >=  5001     &&  nBestHeight <  10000   ){ nSubsidy =   5    * COIN; }
 else if(nBestHeight >=  10001    &&  nBestHeight <  13000   ){ nSubsidy =   10   * COIN; }
